@@ -1,0 +1,9 @@
+L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\Definitions.KillEmDed.h
+C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Source\KillEmDed/Avatar.h
+C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+l:\year 2\c++ for games\git\killemded\killemded\intermediate\build\win64\ue4editor\inc\killemded\Avatar.generated.h

@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-KillEmDed.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Intermediate\Build\Win64\KillEmDedEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\Avatar.cpp.obj"
+"L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\KillEmDed.cpp.obj"
+"L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\KillEmDedGameModeBase.cpp.obj"
+"L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\Avatar.gen.cpp.obj"
+"L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\KillEmDed.init.gen.cpp.obj"
+"L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\KillEmDedGameModeBase.gen.cpp.obj"
+"L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\Default.rc2.res"
+/OUT:"L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\UE4Editor-KillEmDed.lib"
+/INCLUDE:IMPLEMENT_MODULE_KillEmDed
