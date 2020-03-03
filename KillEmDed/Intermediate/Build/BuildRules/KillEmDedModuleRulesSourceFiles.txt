@@ -1,3 +1,3 @@
-L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Source\KillEmDed\KillEmDed.Build.cs
-L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Source\KillEmDed.Target.cs
-L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Source\KillEmDedEditor.Target.cs
+D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Source\KillEmDed\KillEmDed.Build.cs
+D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Source\KillEmDed.Target.cs
+D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Source\KillEmDedEditor.Target.cs
