@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\KillEmDed.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{952DC524-DF8C-46F1-8607-85556156ECF1}</UniqueIdentifier>
+      <UniqueIdentifier>{57DD63AF-3131-45AA-9019-C4EFE3375541}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\KillEmDed.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{63F4DAD2-E82D-4C89-ABAA-EDDDB949D545}</UniqueIdentifier>
+      <UniqueIdentifier>{A62068D7-7F0E-4197-B3DD-E126CB68F532}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,12 +27,30 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\KillEmDed">
-      <UniqueIdentifier>{E12E9B46-AC8C-4D81-9D66-80BA3EDB878A}</UniqueIdentifier>
+      <UniqueIdentifier>{4B125A43-B765-4B62-AF1B-C51FA7EF7E4C}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\KillEmDed\ARotator.cpp">
+      <Filter>Source\KillEmDed</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\KillEmDed\ARotator.h">
+      <Filter>Source\KillEmDed</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\KillEmDed\Avatar.cpp">
       <Filter>Source\KillEmDed</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\KillEmDed\Avatar.h">
+      <Filter>Source\KillEmDed</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\KillEmDed\CollidingPawn.cpp">
+      <Filter>Source\KillEmDed</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\KillEmDed\CollidingPawn.h">
+      <Filter>Source\KillEmDed</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\KillEmDed\CollidingPawnMovementComponent.cpp">
+      <Filter>Source\KillEmDed</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\KillEmDed\CollidingPawnMovementComponent.h">
       <Filter>Source\KillEmDed</Filter>
     </ClInclude>
     <None Include="..\..\Source\KillEmDed\KillEmDed.Build.cs">
@@ -50,27 +68,11 @@
     <ClInclude Include="..\..\Source\KillEmDed\KillEmDedGameModeBase.h">
       <Filter>Source\KillEmDed</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\KillEmDed\CollidingPawn.h">
-      <Filter>Source\KillEmDed</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\KillEmDed\MainContainer.h">
-      <Filter>Source\KillEmDed</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\KillEmDed\CollidingPawnMovementComponent.h">
-      <Filter>Source\KillEmDed</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\KillEmDed\CollidingPawn.cpp">
-      <Filter>Source\KillEmDed</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\KillEmDed\MainContainer.cpp">
       <Filter>Source\KillEmDed</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\KillEmDed\CollidingPawnMovementComponent.cpp">
+    <ClInclude Include="..\..\Source\KillEmDed\MainContainer.h">
       <Filter>Source\KillEmDed</Filter>
-    </ClCompile>
+    </ClInclude>
   </ItemGroup>
 </Project>

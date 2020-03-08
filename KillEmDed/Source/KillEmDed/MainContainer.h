@@ -7,3 +7,5 @@
 #include "UObject/ConstructorHelpers.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
+#include "Components/BoxComponent.h"
+#include "Components/TimelineComponent.h"
