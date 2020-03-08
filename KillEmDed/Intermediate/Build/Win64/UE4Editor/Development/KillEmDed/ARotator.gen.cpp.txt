@@ -15,4 +15,15 @@ D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/BoxComp
 D:\Program Files\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
 D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/TimelineComponent.h
 D:\Program Files\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TimelineComponent.generated.h
+D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/Canvas.h
+D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Public\CanvasItem.h
+D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/Font.h
+D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/FontImportOptions.h
+D:\Program Files\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\FontImportOptions.generated.h
+D:\Program Files\UE_4.22\Engine\Source\Runtime\SlateCore\Public\Fonts/FontProviderInterface.h
+D:\Program Files\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\FontProviderInterface.generated.h
+D:\Program Files\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Font.generated.h
+D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Public\CanvasTypes.h
+D:\Program Files\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CanvasTypes.generated.h
+D:\Program Files\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Canvas.generated.h
 D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Inc\KillEmDed\ARotator.generated.h

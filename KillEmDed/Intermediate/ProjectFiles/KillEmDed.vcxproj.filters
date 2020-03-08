@@ -75,4 +75,20 @@
       <Filter>Source\KillEmDed</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\KillEmDed\NpcCharacter.h">
+      <Filter>Source\KillEmDed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\KillEmDed\playerHud.h">
+      <Filter>Source\KillEmDed</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\KillEmDed\NpcCharacter.cpp">
+      <Filter>Source\KillEmDed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\KillEmDed\playerHud.cpp">
+      <Filter>Source\KillEmDed</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

@@ -9,3 +9,4 @@
 #include "Camera/CameraComponent.h"
 #include "Components/BoxComponent.h"
 #include "Components/TimelineComponent.h"
+#include "Engine/Canvas.h"
