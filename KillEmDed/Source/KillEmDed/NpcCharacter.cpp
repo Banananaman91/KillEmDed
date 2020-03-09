@@ -19,14 +19,15 @@ ANpcCharacter::ANpcCharacter(const FObjectInitializer& PCIP) : Super(PCIP)
 
 void ANpcCharacter::InProximity_Implementation(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
+	UE_LOG(LogTemp, Warning, TEXT("InProximity"));
 	AAvatar* player = Cast<AAvatar>(OtherActor);
 	if (player == nullptr) return;
-
+	UE_LOG(LogTemp, Warning, TEXT("player not null"));
 	if (OtherComp != player->GetRootComponent()) return;
-
+	UE_LOG(LogTemp, Warning, TEXT("root comp"));
 	APlayerController* PController = GetWorld()->GetFirstPlayerController();
 	AplayerHud* hud = Cast<AplayerHud>(PController->GetHUD());
-	hud->AddMessage(Message(NpcMessage, 5.0f, FColor::White));
+	hud->AddMessage(Message(NpcName + FString(": ") + NpcMessage, 5.0f, FColor::White, NpcFace));
 }
 
 // Called when the game starts or when spawned

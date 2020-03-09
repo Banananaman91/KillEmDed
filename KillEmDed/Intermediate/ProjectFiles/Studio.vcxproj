@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A933594B-DA4E-43D2-B191-C2E8C31A98E5}</ProjectGuid>
+    <ProjectGuid>{A2F6D470-15C5-4098-AED9-9C0156800734}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>Studio</RootNamespace>
     <PlatformToolset>v140</PlatformToolset>
@@ -64,8 +64,6 @@
     <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Plugins\Editor\MDLImporter\MDLImporter.uplugin"/>
     <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Plugins\Editor\StaticMeshEditorExtension\StaticMeshEditorExtension.uplugin"/>
     <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Plugins\Runtime\VariantManager\VariantManager.uplugin"/>
-    <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Source\ThirdParty\GPureSDK\GPureSDK.Build.cs"/>
-    <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Source\ThirdParty\GPureSDK\GPureSDK.tps"/>
     <ClInclude Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Source\ThirdParty\Itoo\forestitreesinterface.h"/>
     <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Source\ThirdParty\Itoo\ForestPackRailcloneAPI.tps"/>
     <ClInclude Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Source\ThirdParty\Itoo\ircinterface.h"/>
@@ -86,15 +84,17 @@
     <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Source\ThirdParty\FreeImage\x64\FreeImage317.dll"/>
     <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Source\ThirdParty\FreeImage\x64\FreeImage317.lib"/>
     <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Source\ThirdParty\FreeImage\x64\LibRaw.dll"/>
-    <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Source\Developer\Datasmith\DatasmithFacade\DatasmithFacade.Build.cs"/>
-    <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Source\Developer\Datasmith\DatasmithCore\DatasmithCore.Build.cs"/>
+    <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Source\ThirdParty\GPureSDK\GPureSDK.Build.cs"/>
+    <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Source\ThirdParty\GPureSDK\GPureSDK.tps"/>
     <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Source\Developer\Datasmith\DatasmithExporter\DatasmithExporter.Build.cs"/>
+    <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Source\Developer\Datasmith\DatasmithCore\DatasmithCore.Build.cs"/>
+    <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Source\Developer\Datasmith\DatasmithFacade\DatasmithFacade.Build.cs"/>
     <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Plugins\Editor\DatasmithCADImporter\Source\DatasmithCADImporter\DatasmithCADImporter.Build.cs"/>
     <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Plugins\Editor\DatasmithDataPrepEditor\Source\DatasmithDataPrepEditor\DatasmithDataPrepEditor.Build.cs"/>
     <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Plugins\Editor\DatasmithDataPrepEditor\Source\DatasmithDataPrepLibraries\DatasmithDataPrepLibraries.Build.cs"/>
-    <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Plugins\Editor\DatasmithFBXImporter\Source\DatasmithDeltaGenImporter\DatasmithDeltaGenImporter.Build.cs"/>
-    <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Plugins\Editor\DatasmithFBXImporter\Source\DatasmithFBXImporter\DatasmithFBXImporter.Build.cs"/>
     <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Plugins\Editor\DatasmithFBXImporter\Source\DatasmithVREDImporter\DatasmithVREDImporter.Build.cs"/>
+    <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Plugins\Editor\DatasmithFBXImporter\Source\DatasmithFBXImporter\DatasmithFBXImporter.Build.cs"/>
+    <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Plugins\Editor\DatasmithFBXImporter\Source\DatasmithDeltaGenImporter\DatasmithDeltaGenImporter.Build.cs"/>
     <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Plugins\Editor\DatasmithGLTFImporter\Source\DatasmithGLTFImporter\DatasmithGLTFImporter.Build.cs"/>
     <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Plugins\Editor\DatasmithImporter\Source\DatasmithImporter\DatasmithImporter.Build.cs"/>
     <None Include="C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Enterprise\Plugins\Editor\MDLImporter\Source\MDLImporter\MDLImporter.Build.cs"/>

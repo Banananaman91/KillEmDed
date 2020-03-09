@@ -16,7 +16,7 @@ struct FHitResult;
 #endif
 #define KILLEMDED_NpcCharacter_generated_h
 
-#define KillEmDed_Source_KillEmDed_NpcCharacter_h_15_RPC_WRAPPERS \
+#define KillEmDed_Source_KillEmDed_NpcCharacter_h_14_RPC_WRAPPERS \
 	virtual void InProximity_Implementation(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, FHitResult const& SweepResult); \
  \
 	DECLARE_FUNCTION(execInProximity) \
@@ -34,7 +34,7 @@ struct FHitResult;
 	}
 
 
-#define KillEmDed_Source_KillEmDed_NpcCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define KillEmDed_Source_KillEmDed_NpcCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
 	virtual void InProximity_Implementation(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, FHitResult const& SweepResult); \
  \
 	DECLARE_FUNCTION(execInProximity) \
@@ -52,7 +52,7 @@ struct FHitResult;
 	}
 
 
-#define KillEmDed_Source_KillEmDed_NpcCharacter_h_15_EVENT_PARMS \
+#define KillEmDed_Source_KillEmDed_NpcCharacter_h_14_EVENT_PARMS \
 	struct NpcCharacter_eventInProximity_Parms \
 	{ \
 		UPrimitiveComponent* HitComp; \
@@ -64,8 +64,8 @@ struct FHitResult;
 	};
 
 
-#define KillEmDed_Source_KillEmDed_NpcCharacter_h_15_CALLBACK_WRAPPERS
-#define KillEmDed_Source_KillEmDed_NpcCharacter_h_15_INCLASS_NO_PURE_DECLS \
+#define KillEmDed_Source_KillEmDed_NpcCharacter_h_14_CALLBACK_WRAPPERS
+#define KillEmDed_Source_KillEmDed_NpcCharacter_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesANpcCharacter(); \
 	friend struct Z_Construct_UClass_ANpcCharacter_Statics; \
@@ -74,7 +74,7 @@ public: \
 	DECLARE_SERIALIZER(ANpcCharacter)
 
 
-#define KillEmDed_Source_KillEmDed_NpcCharacter_h_15_INCLASS \
+#define KillEmDed_Source_KillEmDed_NpcCharacter_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesANpcCharacter(); \
 	friend struct Z_Construct_UClass_ANpcCharacter_Statics; \
@@ -83,7 +83,7 @@ public: \
 	DECLARE_SERIALIZER(ANpcCharacter)
 
 
-#define KillEmDed_Source_KillEmDed_NpcCharacter_h_15_STANDARD_CONSTRUCTORS \
+#define KillEmDed_Source_KillEmDed_NpcCharacter_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ANpcCharacter(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ANpcCharacter) \
@@ -96,7 +96,7 @@ private: \
 public:
 
 
-#define KillEmDed_Source_KillEmDed_NpcCharacter_h_15_ENHANCED_CONSTRUCTORS \
+#define KillEmDed_Source_KillEmDed_NpcCharacter_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ANpcCharacter(ANpcCharacter&&); \
@@ -107,31 +107,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANpcCharacter); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ANpcCharacter)
 
 
-#define KillEmDed_Source_KillEmDed_NpcCharacter_h_15_PRIVATE_PROPERTY_OFFSET
-#define KillEmDed_Source_KillEmDed_NpcCharacter_h_12_PROLOG \
-	KillEmDed_Source_KillEmDed_NpcCharacter_h_15_EVENT_PARMS
+#define KillEmDed_Source_KillEmDed_NpcCharacter_h_14_PRIVATE_PROPERTY_OFFSET
+#define KillEmDed_Source_KillEmDed_NpcCharacter_h_11_PROLOG \
+	KillEmDed_Source_KillEmDed_NpcCharacter_h_14_EVENT_PARMS
 
 
-#define KillEmDed_Source_KillEmDed_NpcCharacter_h_15_GENERATED_BODY_LEGACY \
+#define KillEmDed_Source_KillEmDed_NpcCharacter_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	KillEmDed_Source_KillEmDed_NpcCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
-	KillEmDed_Source_KillEmDed_NpcCharacter_h_15_RPC_WRAPPERS \
-	KillEmDed_Source_KillEmDed_NpcCharacter_h_15_CALLBACK_WRAPPERS \
-	KillEmDed_Source_KillEmDed_NpcCharacter_h_15_INCLASS \
-	KillEmDed_Source_KillEmDed_NpcCharacter_h_15_STANDARD_CONSTRUCTORS \
+	KillEmDed_Source_KillEmDed_NpcCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+	KillEmDed_Source_KillEmDed_NpcCharacter_h_14_RPC_WRAPPERS \
+	KillEmDed_Source_KillEmDed_NpcCharacter_h_14_CALLBACK_WRAPPERS \
+	KillEmDed_Source_KillEmDed_NpcCharacter_h_14_INCLASS \
+	KillEmDed_Source_KillEmDed_NpcCharacter_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define KillEmDed_Source_KillEmDed_NpcCharacter_h_15_GENERATED_BODY \
+#define KillEmDed_Source_KillEmDed_NpcCharacter_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	KillEmDed_Source_KillEmDed_NpcCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
-	KillEmDed_Source_KillEmDed_NpcCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	KillEmDed_Source_KillEmDed_NpcCharacter_h_15_CALLBACK_WRAPPERS \
-	KillEmDed_Source_KillEmDed_NpcCharacter_h_15_INCLASS_NO_PURE_DECLS \
-	KillEmDed_Source_KillEmDed_NpcCharacter_h_15_ENHANCED_CONSTRUCTORS \
+	KillEmDed_Source_KillEmDed_NpcCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+	KillEmDed_Source_KillEmDed_NpcCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	KillEmDed_Source_KillEmDed_NpcCharacter_h_14_CALLBACK_WRAPPERS \
+	KillEmDed_Source_KillEmDed_NpcCharacter_h_14_INCLASS_NO_PURE_DECLS \
+	KillEmDed_Source_KillEmDed_NpcCharacter_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

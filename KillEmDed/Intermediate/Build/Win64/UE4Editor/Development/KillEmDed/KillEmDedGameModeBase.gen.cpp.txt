@@ -1,9 +1,9 @@
-D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\Definitions.KillEmDed.h
-D:\Program Files\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\Program Files\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Source\KillEmDed/KillEmDedGameModeBase.h
-D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-D:\Program Files\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-D:\Program Files\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Inc\KillEmDed\KillEmDedGameModeBase.generated.h
+L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\Definitions.KillEmDed.h
+C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Source\KillEmDed/KillEmDedGameModeBase.h
+C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+l:\year 2\c++ for games\git\killemded\killemded\intermediate\build\win64\ue4editor\inc\killemded\KillEmDedGameModeBase.generated.h

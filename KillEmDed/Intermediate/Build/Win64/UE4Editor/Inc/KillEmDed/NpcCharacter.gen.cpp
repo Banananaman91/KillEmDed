@@ -21,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeNpcCharacter() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UTexture2D_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 // End Cross Module References
 	static FName NAME_ANpcCharacter_InProximity = FName(TEXT("InProximity"));
@@ -132,6 +133,14 @@ void EmptyLinkFunctionForGeneratedCodeNpcCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FStrPropertyParams NewProp_NpcMessage;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NpcFace_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_NpcFace;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NpcName_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_NpcName;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProxSphere_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ProxSphere;
@@ -162,6 +171,20 @@ void EmptyLinkFunctionForGeneratedCodeNpcCharacter() {}
 #endif
 	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_ANpcCharacter_Statics::NewProp_NpcMessage = { "NpcMessage", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANpcCharacter, NpcMessage), METADATA_PARAMS(Z_Construct_UClass_ANpcCharacter_Statics::NewProp_NpcMessage_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANpcCharacter_Statics::NewProp_NpcMessage_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANpcCharacter_Statics::NewProp_NpcFace_MetaData[] = {
+		{ "Category", "NPCMessage" },
+		{ "ModuleRelativePath", "NpcCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANpcCharacter_Statics::NewProp_NpcFace = { "NpcFace", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANpcCharacter, NpcFace), Z_Construct_UClass_UTexture2D_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANpcCharacter_Statics::NewProp_NpcFace_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANpcCharacter_Statics::NewProp_NpcFace_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANpcCharacter_Statics::NewProp_NpcName_MetaData[] = {
+		{ "Category", "NPCName" },
+		{ "ModuleRelativePath", "NpcCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_ANpcCharacter_Statics::NewProp_NpcName = { "NpcName", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANpcCharacter, NpcName), METADATA_PARAMS(Z_Construct_UClass_ANpcCharacter_Statics::NewProp_NpcName_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANpcCharacter_Statics::NewProp_NpcName_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANpcCharacter_Statics::NewProp_ProxSphere_MetaData[] = {
 		{ "Category", "Collision" },
 		{ "EditInline", "true" },
@@ -171,6 +194,8 @@ void EmptyLinkFunctionForGeneratedCodeNpcCharacter() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANpcCharacter_Statics::NewProp_ProxSphere = { "ProxSphere", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANpcCharacter, ProxSphere), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANpcCharacter_Statics::NewProp_ProxSphere_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANpcCharacter_Statics::NewProp_ProxSphere_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ANpcCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANpcCharacter_Statics::NewProp_NpcMessage,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANpcCharacter_Statics::NewProp_NpcFace,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANpcCharacter_Statics::NewProp_NpcName,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANpcCharacter_Statics::NewProp_ProxSphere,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ANpcCharacter_Statics::StaticCppClassTypeInfo = {
@@ -200,7 +225,7 @@ void EmptyLinkFunctionForGeneratedCodeNpcCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANpcCharacter, 4099738964);
+	IMPLEMENT_CLASS(ANpcCharacter, 3104117928);
 	template<> KILLEMDED_API UClass* StaticClass<ANpcCharacter>()
 	{
 		return ANpcCharacter::StaticClass();

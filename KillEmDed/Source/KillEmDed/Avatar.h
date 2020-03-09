@@ -22,6 +22,12 @@ public:
 	// Sets default values for this character's properties
 	AAvatar();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = PlayerProperties)
+		float Hp;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = PlayerProperties)
+		float MaxHp;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

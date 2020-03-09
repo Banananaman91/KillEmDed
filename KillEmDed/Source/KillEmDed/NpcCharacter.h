@@ -4,7 +4,6 @@
 
 #include "Avatar.h"
 #include "playerHud.h"
-#include "MainContainer.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "NpcCharacter.generated.h"
@@ -20,6 +19,12 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Collision)
 		USphereComponent* ProxSphere;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = NPCName)
+		FString NpcName;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = NPCMessage)
+		UTexture2D* NpcFace;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = NPCMessage)
 		FString NpcMessage;

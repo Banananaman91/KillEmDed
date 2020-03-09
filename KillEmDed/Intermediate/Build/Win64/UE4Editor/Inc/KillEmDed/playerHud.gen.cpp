@@ -33,6 +33,22 @@ void EmptyLinkFunctionForGeneratedCodeplayerHud() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BarMargin_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BarMargin;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BarPad_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BarPad;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BarHeight_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BarHeight;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BarWidth_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BarWidth;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TextScale_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TextScale;
@@ -65,6 +81,34 @@ void EmptyLinkFunctionForGeneratedCodeplayerHud() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AplayerHud_Statics::NewProp_BarMargin_MetaData[] = {
+		{ "Category", "HealthBar" },
+		{ "ModuleRelativePath", "playerHud.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AplayerHud_Statics::NewProp_BarMargin = { "BarMargin", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AplayerHud, BarMargin), METADATA_PARAMS(Z_Construct_UClass_AplayerHud_Statics::NewProp_BarMargin_MetaData, ARRAY_COUNT(Z_Construct_UClass_AplayerHud_Statics::NewProp_BarMargin_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AplayerHud_Statics::NewProp_BarPad_MetaData[] = {
+		{ "Category", "HealthBar" },
+		{ "ModuleRelativePath", "playerHud.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AplayerHud_Statics::NewProp_BarPad = { "BarPad", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AplayerHud, BarPad), METADATA_PARAMS(Z_Construct_UClass_AplayerHud_Statics::NewProp_BarPad_MetaData, ARRAY_COUNT(Z_Construct_UClass_AplayerHud_Statics::NewProp_BarPad_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AplayerHud_Statics::NewProp_BarHeight_MetaData[] = {
+		{ "Category", "HealthBar" },
+		{ "ModuleRelativePath", "playerHud.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AplayerHud_Statics::NewProp_BarHeight = { "BarHeight", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AplayerHud, BarHeight), METADATA_PARAMS(Z_Construct_UClass_AplayerHud_Statics::NewProp_BarHeight_MetaData, ARRAY_COUNT(Z_Construct_UClass_AplayerHud_Statics::NewProp_BarHeight_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AplayerHud_Statics::NewProp_BarWidth_MetaData[] = {
+		{ "Category", "HealthBar" },
+		{ "ModuleRelativePath", "playerHud.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AplayerHud_Statics::NewProp_BarWidth = { "BarWidth", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AplayerHud, BarWidth), METADATA_PARAMS(Z_Construct_UClass_AplayerHud_Statics::NewProp_BarWidth_MetaData, ARRAY_COUNT(Z_Construct_UClass_AplayerHud_Statics::NewProp_BarWidth_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AplayerHud_Statics::NewProp_TextScale_MetaData[] = {
 		{ "Category", "HUDFont" },
 		{ "ModuleRelativePath", "playerHud.h" },
@@ -93,6 +137,10 @@ void EmptyLinkFunctionForGeneratedCodeplayerHud() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AplayerHud_Statics::NewProp_hudFont = { "hudFont", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AplayerHud, hudFont), Z_Construct_UClass_UFont_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AplayerHud_Statics::NewProp_hudFont_MetaData, ARRAY_COUNT(Z_Construct_UClass_AplayerHud_Statics::NewProp_hudFont_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AplayerHud_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AplayerHud_Statics::NewProp_BarMargin,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AplayerHud_Statics::NewProp_BarPad,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AplayerHud_Statics::NewProp_BarHeight,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AplayerHud_Statics::NewProp_BarWidth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AplayerHud_Statics::NewProp_TextScale,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AplayerHud_Statics::NewProp_ScreenY,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AplayerHud_Statics::NewProp_ScreenX,
@@ -125,7 +173,7 @@ void EmptyLinkFunctionForGeneratedCodeplayerHud() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AplayerHud, 1637958142);
+	IMPLEMENT_CLASS(AplayerHud, 2321758047);
 	template<> KILLEMDED_API UClass* StaticClass<AplayerHud>()
 	{
 		return AplayerHud::StaticClass();
