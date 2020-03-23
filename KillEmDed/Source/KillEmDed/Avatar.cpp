@@ -2,7 +2,6 @@
 
 
 #include "Avatar.h"
-
 #include "Components/InputComponent.h"
 #include "Engine/World.h"
 
@@ -38,10 +37,12 @@ void AAvatar::SetupPlayerInputComponent(class UInputComponent* InputComponent)
 	InputComponent->BindAxis("Strafe", this, &AAvatar::MoveRight);
 	InputComponent->BindAxis("Yaw", this, &AAvatar::Yaw);
 	InputComponent->BindAxis("Pitch", this, &AAvatar::Pitch);
+	InputComponent->BindAction("Inventory", IE_Pressed, this, &AAvatar::ToggleInventory);
 }
 
 void AAvatar::MoveForward(float amount)
 {
+	if (inventoryShowing) return;
 	//Don't enter the body of this function if Controller is not set up yet, or if the amount is equal to zero
 	if (Controller && amount) {
 		FVector forward = GetActorForwardVector();
@@ -52,6 +53,7 @@ void AAvatar::MoveForward(float amount)
 
 void AAvatar::MoveRight(float amount)
 {
+	if (inventoryShowing) return;
 	if (Controller && amount) {
 		FVector right = GetActorRightVector();
 		AddMovementInput(right, amount);
@@ -60,11 +62,31 @@ void AAvatar::MoveRight(float amount)
 
 void AAvatar::Yaw(float amount)
 {
+	if (inventoryShowing) return;
 	AddControllerYawInput(200.f * amount * GetWorld()->GetDeltaSeconds());
 }
 
 void AAvatar::Pitch(float amount)
 {
+	if (inventoryShowing) return;
 	AddControllerPitchInput(200.f * amount * GetWorld()->GetDeltaSeconds());
+}
+
+void AAvatar::Pickup(APickupItem* item) {
+	if (Backpack.Contains(item->Name)) Backpack[item->Name] += item->Quantity;
+	else {
+		Backpack.Add(item->Name, item->Quantity);
+		Icons.Add(item->Name, item->Icon);
+	}
+}
+
+void AAvatar::ToggleInventory() {
+	if (inventoryShowing) inventoryShowing = false;
+	else {
+		inventoryShowing = true;
+		if (GEngine) {
+			GEngine->AddOnScreenDebugMessage(0, 5.0f, FColor::Red, "Displaying Inventory");
+		}
+	}
 }
 

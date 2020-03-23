@@ -426,21 +426,20 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Inc\KillEmDed"
-/I "L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Source"
-/I "L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Source\KillEmDed"
-/I C:\Institutions\Gre\Apps\VS2019\VC\Tools\MSVC\14.16.27023\INCLUDE
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Intermediate\Build\Win64\KillEmDedEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Intermediate\Build\Win64\KillEmDedEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Intermediate\Build\Win64\KillEmDedEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Inc\KillEmDed\ARotator.gen.cpp"
-/FI"L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\Definitions.KillEmDed.h"
-/Fo"L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\ARotator.gen.cpp.obj"
+/I D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Inc\KillEmDed
+/I D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Source
+/I D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Source\KillEmDed
+/I "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+/FI"D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\KillEmDedEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\KillEmDedEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\KillEmDedEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Inc\KillEmDed\ARotator.gen.cpp"
+/FI"D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\Definitions.KillEmDed.h"
+/Fo"D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\ARotator.gen.cpp.obj"
 /TP
 /GR-
 /W4

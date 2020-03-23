@@ -53,6 +53,10 @@ void AAEnemy::TrackPlayer(float DeltaTime)
 	FVector playerPos = avatar->GetActorLocation();
 	FVector toPlayer = playerPos - GetActorLocation();
 	float distanceToPlayer = toPlayer.Size();
+
+	if (distanceToPlayer > SightSphere->GetScaledSphereRadius()) return;
+
+	toPlayer /= distanceToPlayer;
 	AddMovementInput(toPlayer, speed * DeltaTime);
 
 	FRotator toPlayerRotation = toPlayer.Rotation();

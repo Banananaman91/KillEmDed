@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "PickupItem.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Avatar.generated.h"
@@ -28,6 +29,14 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = PlayerProperties)
 		float MaxHp;
 
+	TMap<FString, int> Backpack;
+
+	TMap<FString, UTexture2D*> Icons;
+
+	bool inventoryShowing;
+
+	void Pickup(APickupItem* item);
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -38,5 +47,7 @@ public:
 
 	// Called to bind functionality to input
 	void SetupPlayerInputComponent(UInputComponent* InputComponent) override;
+
+	void ToggleInventory();
 
 };

@@ -50,6 +50,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Collision)
 		USphereComponent* AttackRangeSphere;
 
+	bool isInAttackRange(float d) { return d < AttackRangeSphere->GetScaledSphereRadius(); }
+
+	bool isInSightRange(float d) { return d < SightSphere->GetScaledSphereRadius(); }
+
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 

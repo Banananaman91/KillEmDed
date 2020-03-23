@@ -1,26 +1,2 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (L:\Year 2\C++ for games\Git\KillEmDed).
-  Parsing headers for KillEmDedEditor
-    Running UnrealHeaderTool "L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\KillEmDed.uproject" "L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Intermediate\Build\Win64\KillEmDedEditor\Development\KillEmDedEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for KillEmDedEditor in 5.8898527 seconds
-  Using Visual Studio 2019 14.16.27023 toolchain (C:\Institutions\Gre\Apps\VS2019\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 8 actions with 12 processes...
-    [1/8] Avatar.gen.cpp
-    [2/8] ARotator.cpp
-    [3/8] AEnemy.cpp
-    [4/8] playerHud.cpp
-    [5/8] CollidingPawn.cpp
-L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Source\KillEmDed\CollidingPawn.cpp(21): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-    C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: see declaration of 'USceneComponent::AttachTo'
-L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Source\KillEmDed\CollidingPawn.cpp(33): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-    C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: see declaration of 'USceneComponent::AttachTo'
-L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Source\KillEmDed\CollidingPawn.cpp(43): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-    C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: see declaration of 'USceneComponent::AttachTo'
-L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Source\KillEmDed\CollidingPawn.cpp(51): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-    C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(659): note: see declaration of 'USceneComponent::AttachTo'
-    [6/8] UE4Editor-KillEmDed.lib
-       Creating library L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\UE4Editor-KillEmDed.lib and object L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\UE4Editor-KillEmDed.exp
-    [7/8] UE4Editor-KillEmDed.dll
-       Creating library L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\UE4Editor-KillEmDed.suppressed.lib and object L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\UE4Editor-KillEmDed.suppressed.exp
-    [8/8] KillEmDedEditor.target
-  Total time in Parallel executor: 3.92 seconds
-  Total execution time: 10.40 seconds
+﻿  The system cannot find the path specified.
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(49,5): error MSB3073: The command ""C:\Institutions\Gre\Apps\Epic Games\UE_4.22\Engine\Build\BatchFiles\Rebuild.bat" KillEmDedEditor Win64 Development -Project="D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\KillEmDed.uproject" -WaitMutex -FromMsBuild" exited with code 3.

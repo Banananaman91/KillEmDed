@@ -392,7 +392,9 @@
     <ClInclude Include="..\..\Source\KillEmDed\MainContainer.h" />
     <ClCompile Include="..\..\Source\KillEmDed\NpcCharacter.cpp" />
     <ClInclude Include="..\..\Source\KillEmDed\NpcCharacter.h" />
+    <ClCompile Include="..\..\Source\KillEmDed\PickupItem.cpp" />
     <ClCompile Include="..\..\Source\KillEmDed\playerHud.cpp" />
+    <ClInclude Include="..\..\Source\KillEmDed\PickupItem.h" />
     <ClInclude Include="..\..\Source\KillEmDed\playerHud.h" />
   </ItemGroup>
   <PropertyGroup>

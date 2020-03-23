@@ -1,2 +1,2 @@
-L:\Year 2\C++ for games\Git\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\Definitions.KillEmDed.h
-l:\year 2\c++ for games\git\killemded\killemded\source\killemded\KillEmDed.h
+D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\Definitions.KillEmDed.h
+D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Source\KillEmDed\KillEmDed.h
