@@ -103,6 +103,9 @@
     <ClInclude Include="..\..\Source\KillEmDed\Projectile.h">
       <Filter>Source\KillEmDed</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\KillEmDed\EnemySpawner.h">
+      <Filter>Source\KillEmDed</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\KillEmDed\AEnemy.cpp">
@@ -112,6 +115,9 @@
       <Filter>Source\KillEmDed</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\KillEmDed\Projectile.cpp">
+      <Filter>Source\KillEmDed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\KillEmDed\EnemySpawner.cpp">
       <Filter>Source\KillEmDed</Filter>
     </ClCompile>
   </ItemGroup>

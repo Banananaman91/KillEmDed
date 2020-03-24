@@ -25,6 +25,9 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Properties)
+		float LifeTime;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Properties)
 		float Damage;
 
 	AActor* Firer;

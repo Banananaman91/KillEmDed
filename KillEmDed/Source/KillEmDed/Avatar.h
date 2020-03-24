@@ -30,6 +30,15 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = PlayerProperties)
 		float MaxHp;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = PlayerProperties)
+		UClass* BPBullet;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = PlayerProperties)
+		float BulletLaunchImpulse;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = PlayerProperties)
+		float BulletSpawnDistance;
+
 	TMap<FString, int> Backpack;
 
 	TMap<FString, UTexture2D*> Icons;

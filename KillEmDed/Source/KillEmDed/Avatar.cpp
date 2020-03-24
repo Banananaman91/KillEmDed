@@ -2,6 +2,7 @@
 
 
 #include "Avatar.h"
+#include "Projectile.h"
 #include "playerHud.h"
 #include "Components/InputComponent.h"
 #include "Engine/World.h"
@@ -124,6 +125,21 @@ void AAvatar::MouseClicked() {
 		APlayerController* PController = GetWorld()->GetFirstPlayerController();
 		AplayerHud* hud = Cast<AplayerHud>(PController->GetHUD());
 		hud->MouseClicked();
+	}
+	else {
+		if (BPBullet) {
+			FVector fwd = GetActorForwardVector();
+			FVector nozzle = GetMesh()->GetBoneLocation("index_03_l");
+
+			nozzle += fwd * BulletSpawnDistance;
+
+			AProjectile* bullet = GetWorld()->SpawnActor<AProjectile>(BPBullet, nozzle, RootComponent->GetComponentRotation());
+
+			if (bullet) {
+				bullet->Firer = this;
+				bullet->ProxSphere->AddImpulse(fwd * BulletLaunchImpulse);
+			}
+		}
 	}
 }
 

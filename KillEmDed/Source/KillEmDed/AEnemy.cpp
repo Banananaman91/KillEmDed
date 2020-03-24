@@ -57,9 +57,6 @@ void AAEnemy::TrackPlayer(float DeltaTime)
 
 	if (distanceToPlayer > SightSphere->GetScaledSphereRadius()) return;
 
-	toPlayer /= distanceToPlayer;
-	AddMovementInput(toPlayer, speed * DeltaTime);
-
 	FRotator toPlayerRotation = toPlayer.Rotation();
 	toPlayerRotation.Pitch = 0;
 	RootComponent->SetWorldRotation(toPlayerRotation);
@@ -73,6 +70,9 @@ void AAEnemy::TrackPlayer(float DeltaTime)
 
 		return;
 	}
+
+	toPlayer /= distanceToPlayer;
+	AddMovementInput(toPlayer, speed * DeltaTime);
 }
 
 void AAEnemy::Attack(AActor* thing) {
@@ -90,11 +90,20 @@ void AAEnemy::Attack(AActor* thing) {
 		if (bullet) {
 			bullet->Firer = this;
 			bullet->ProxSphere->AddImpulse(fwd * BulletLaunchImpulse);
-			GEngine->AddOnScreenDebugMessage(0, 5.0f, FColor::Yellow, "Enemy: Bullet Spawned");
-		}
-		else {
-			GEngine->AddOnScreenDebugMessage(0, 5.0f, FColor::Yellow, "Enemy: No bullet actor could be spawned. Is the bullet overlapping?");
 		}
 	}
+
+	else {
+		thing->TakeDamage(BaseAttackDamage, FDamageEvent(), NULL, this);
+	}
+}
+
+float AAEnemy::TakeDamage(float Damage, struct FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
+{
+	Super::TakeDamage(Damage, DamageEvent, EventInstigator, DamageCauser);
+	HitPoints -= Damage;
+
+	if (HitPoints <= 0) Destroy();
+	return Damage;
 }
 

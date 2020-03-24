@@ -31,6 +31,10 @@ void AProjectile::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	LifeTime -= DeltaTime;
+
+	if (LifeTime <= 0) Destroy();
+
 }
 
 void AProjectile::Prox_Implementation(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) {

@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	KILLEMDED_API UClass* Z_Construct_UClass_AAvatar();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_KillEmDed();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
 // End Cross Module References
 	void AAvatar::StaticRegisterNativesAAvatar()
 	{
@@ -31,6 +33,18 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BulletSpawnDistance_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BulletSpawnDistance;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BulletLaunchImpulse_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BulletLaunchImpulse;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BPBullet_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_BPBullet;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxHp_MetaData[];
 #endif
@@ -55,6 +69,27 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_BulletSpawnDistance_MetaData[] = {
+		{ "Category", "PlayerProperties" },
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_BulletSpawnDistance = { "BulletSpawnDistance", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, BulletSpawnDistance), METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_BulletSpawnDistance_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_BulletSpawnDistance_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_BulletLaunchImpulse_MetaData[] = {
+		{ "Category", "PlayerProperties" },
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_BulletLaunchImpulse = { "BulletLaunchImpulse", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, BulletLaunchImpulse), METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_BulletLaunchImpulse_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_BulletLaunchImpulse_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_BPBullet_MetaData[] = {
+		{ "Category", "PlayerProperties" },
+		{ "ModuleRelativePath", "Avatar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_BPBullet = { "BPBullet", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, BPBullet), Z_Construct_UClass_UObject_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_BPBullet_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_BPBullet_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAvatar_Statics::NewProp_MaxHp_MetaData[] = {
 		{ "Category", "PlayerProperties" },
 		{ "ModuleRelativePath", "Avatar.h" },
@@ -69,6 +104,9 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAvatar_Statics::NewProp_Hp = { "Hp", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAvatar, Hp), METADATA_PARAMS(Z_Construct_UClass_AAvatar_Statics::NewProp_Hp_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAvatar_Statics::NewProp_Hp_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAvatar_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_BulletSpawnDistance,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_BulletLaunchImpulse,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_BPBullet,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_MaxHp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAvatar_Statics::NewProp_Hp,
 	};
@@ -99,7 +137,7 @@ void EmptyLinkFunctionForGeneratedCodeAvatar() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAvatar, 4188648061);
+	IMPLEMENT_CLASS(AAvatar, 387673468);
 	template<> KILLEMDED_API UClass* StaticClass<AAvatar>()
 	{
 		return AAvatar::StaticClass();
