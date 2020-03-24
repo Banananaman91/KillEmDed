@@ -2,6 +2,9 @@
 
 #pragma once
 
+#include "Math/Vector.h"
+#include "GameFramework/Controller.h"
+#include "Engine/EngineTypes.h"
 #include "UObject/Class.h"
 #include "Containers/Map.h"
 #include "Components/SphereComponent.h"

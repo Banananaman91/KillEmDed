@@ -26,7 +26,8 @@ void AAvatar::BeginPlay()
 void AAvatar::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	AddMovementInput(Knockback, 1.0f);
+	Knockback *= 0.5f;
 }
 
 // Called to bind functionality to input
@@ -124,5 +125,18 @@ void AAvatar::MouseClicked() {
 		AplayerHud* hud = Cast<AplayerHud>(PController->GetHUD());
 		hud->MouseClicked();
 	}
+}
+
+float AAvatar::TakeDamage(float Damage, struct FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
+{
+	Super::TakeDamage(Damage, DamageEvent, EventInstigator, DamageCauser);
+	Hp -= Damage;
+
+	Knockback = GetActorLocation();
+	Knockback.Normalize();
+	Knockback *= Damage * 500;
+
+	if (Hp <= 0) Hp = 0;
+	return Damage;
 }
 

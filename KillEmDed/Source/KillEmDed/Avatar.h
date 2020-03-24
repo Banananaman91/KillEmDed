@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "MainContainer.h"
 #include "PickupItem.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
@@ -51,5 +52,9 @@ public:
 	void ToggleInventory();
 
 	void MouseClicked();
+
+	FVector Knockback;
+
+	virtual float TakeDamage(float Damage, struct FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser) override;
 
 };

@@ -2,7 +2,6 @@ D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\U
 D:\Program Files\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 D:\Program Files\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Source\KillEmDed/Avatar.h
-D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Source\KillEmDed\PickupItem.h
 D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Source\KillEmDed\MainContainer.h
 D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
 D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
@@ -37,6 +36,7 @@ D:\Program Files\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Di
 D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
 D:\Program Files\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 D:\Program Files\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Source\KillEmDed\PickupItem.h
 D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Inc\KillEmDed\PickupItem.generated.h
 D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
