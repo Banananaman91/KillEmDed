@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "Particles/ParticleSystemComponent.h"
 #include "Math/Vector.h"
 #include "GameFramework/Controller.h"
 #include "Engine/EngineTypes.h"

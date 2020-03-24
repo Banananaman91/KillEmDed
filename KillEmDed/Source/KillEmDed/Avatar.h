@@ -31,13 +31,12 @@ public:
 		float MaxHp;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = PlayerProperties)
-		UClass* BPBullet;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = PlayerProperties)
 		float BulletLaunchImpulse;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = PlayerProperties)
 		float BulletSpawnDistance;
+
+	TArray<UClass*> weapons;
 
 	TMap<FString, int> Backpack;
 
@@ -60,9 +59,13 @@ public:
 
 	void ToggleInventory();
 
+	void ToggleWeapon();
+
 	void MouseClicked();
 
 	FVector Knockback;
+
+	int32 weaponSelect;
 
 	virtual float TakeDamage(float Damage, struct FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser) override;
 

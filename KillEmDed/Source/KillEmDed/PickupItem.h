@@ -3,9 +3,13 @@
 #pragma once
 
 #include "MainContainer.h"
+#include "UObject/Class.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "PickupItem.generated.h"
+
+UENUM(BlueprintType)
+enum class ItemType : uint8 { health, projectile };
 
 UCLASS()
 class KILLEMDED_API APickupItem : public AActor
@@ -30,8 +34,17 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Item)
 		int32 Quantity;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Item)
+		ItemType itemType;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Item)
+		UClass* BPItem;
+
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Item)
 		USphereComponent* ProxSphere;
+
+	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Item)
+		UParticleSystemComponent* Particle;
 
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Item)
 		UStaticMeshComponent* Mesh;

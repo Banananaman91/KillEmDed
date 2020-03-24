@@ -36,7 +36,7 @@ public:
 		USphereComponent* ProxSphere;
 
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Collision)
-		UStaticMeshComponent* Mesh;
+		UParticleSystemComponent* Particle;
 
 	UFUNCTION(BlueprintNativeEvent, Category = Collision)
 		void Prox(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);

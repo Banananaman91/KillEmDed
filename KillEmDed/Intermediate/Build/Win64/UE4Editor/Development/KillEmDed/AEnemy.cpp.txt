@@ -2,6 +2,12 @@ D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\U
 D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Source\KillEmDed\AEnemy.h
 D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Source\KillEmDed\Avatar.h
 D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Source\KillEmDed\MainContainer.h
+D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystemComponent.h
+D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystem.h
+D:\Program Files\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystem.generated.h
+D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\Particles/Emitter.h
+D:\Program Files\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Emitter.generated.h
+D:\Program Files\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystemComponent.generated.h
 D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
 D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 D:\Program Files\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h

@@ -21,6 +21,9 @@ APickupItem::APickupItem(const class FObjectInitializer& PCIP) : Super(PCIP)
 	ProxSphere->OnComponentBeginOverlap.AddDynamic(this, &APickupItem::Prox);
 	ProxSphere->SetupAttachment(Mesh);
 
+	Particle = PCIP.CreateDefaultSubobject<UParticleSystemComponent>(this, TEXT("Particle"));
+	Particle->SetupAttachment(Mesh);
+
 }
 
 // Called when the game starts or when spawned

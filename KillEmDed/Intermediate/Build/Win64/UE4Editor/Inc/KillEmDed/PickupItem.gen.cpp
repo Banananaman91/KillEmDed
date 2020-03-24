@@ -13,18 +13,73 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodePickupItem() {}
 // Cross Module References
+	KILLEMDED_API UEnum* Z_Construct_UEnum_KillEmDed_ItemType();
+	UPackage* Z_Construct_UPackage__Script_KillEmDed();
 	KILLEMDED_API UClass* Z_Construct_UClass_APickupItem_NoRegister();
 	KILLEMDED_API UClass* Z_Construct_UClass_APickupItem();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
-	UPackage* Z_Construct_UPackage__Script_KillEmDed();
 	KILLEMDED_API UFunction* Z_Construct_UFunction_APickupItem_Prox();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UTexture2D_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UParticleSystemComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
 // End Cross Module References
+	static UEnum* ItemType_StaticEnum()
+	{
+		static UEnum* Singleton = nullptr;
+		if (!Singleton)
+		{
+			Singleton = GetStaticEnum(Z_Construct_UEnum_KillEmDed_ItemType, Z_Construct_UPackage__Script_KillEmDed(), TEXT("ItemType"));
+		}
+		return Singleton;
+	}
+	template<> KILLEMDED_API UEnum* StaticEnum<ItemType>()
+	{
+		return ItemType_StaticEnum();
+	}
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ItemType(ItemType_StaticEnum, TEXT("/Script/KillEmDed"), TEXT("ItemType"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_KillEmDed_ItemType_Hash() { return 1911455025U; }
+	UEnum* Z_Construct_UEnum_KillEmDed_ItemType()
+	{
+#if WITH_HOT_RELOAD
+		UPackage* Outer = Z_Construct_UPackage__Script_KillEmDed();
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("ItemType"), 0, Get_Z_Construct_UEnum_KillEmDed_ItemType_Hash(), false);
+#else
+		static UEnum* ReturnEnum = nullptr;
+#endif // WITH_HOT_RELOAD
+		if (!ReturnEnum)
+		{
+			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
+				{ "ItemType::health", (int64)ItemType::health },
+				{ "ItemType::projectile", (int64)ItemType::projectile },
+			};
+#if WITH_METADATA
+			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "BlueprintType", "true" },
+				{ "ModuleRelativePath", "PickupItem.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FEnumParams EnumParams = {
+				(UObject*(*)())Z_Construct_UPackage__Script_KillEmDed,
+				nullptr,
+				"ItemType",
+				"ItemType",
+				Enumerators,
+				ARRAY_COUNT(Enumerators),
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				(uint8)UEnum::ECppForm::EnumClass,
+				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
+			};
+			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
+		}
+		return ReturnEnum;
+	}
 	static FName NAME_APickupItem_Prox = FName(TEXT("Prox"));
 	void APickupItem::Prox(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, FHitResult const& SweepResult)
 	{
@@ -138,9 +193,22 @@ void EmptyLinkFunctionForGeneratedCodePickupItem() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Mesh;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Particle_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Particle;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProxSphere_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ProxSphere;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BPItem_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_BPItem;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_itemType_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_itemType;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_itemType_Underlying;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Quantity_MetaData[];
 #endif
@@ -183,6 +251,14 @@ void EmptyLinkFunctionForGeneratedCodePickupItem() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APickupItem_Statics::NewProp_Mesh = { "Mesh", nullptr, (EPropertyFlags)0x00100000000b001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickupItem, Mesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APickupItem_Statics::NewProp_Mesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_APickupItem_Statics::NewProp_Mesh_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickupItem_Statics::NewProp_Particle_MetaData[] = {
+		{ "Category", "Item" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "PickupItem.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APickupItem_Statics::NewProp_Particle = { "Particle", nullptr, (EPropertyFlags)0x00100000000b001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickupItem, Particle), Z_Construct_UClass_UParticleSystemComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APickupItem_Statics::NewProp_Particle_MetaData, ARRAY_COUNT(Z_Construct_UClass_APickupItem_Statics::NewProp_Particle_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickupItem_Statics::NewProp_ProxSphere_MetaData[] = {
 		{ "Category", "Item" },
 		{ "EditInline", "true" },
@@ -190,6 +266,21 @@ void EmptyLinkFunctionForGeneratedCodePickupItem() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APickupItem_Statics::NewProp_ProxSphere = { "ProxSphere", nullptr, (EPropertyFlags)0x00100000000b001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickupItem, ProxSphere), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APickupItem_Statics::NewProp_ProxSphere_MetaData, ARRAY_COUNT(Z_Construct_UClass_APickupItem_Statics::NewProp_ProxSphere_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickupItem_Statics::NewProp_BPItem_MetaData[] = {
+		{ "Category", "Item" },
+		{ "ModuleRelativePath", "PickupItem.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_APickupItem_Statics::NewProp_BPItem = { "BPItem", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickupItem, BPItem), Z_Construct_UClass_UObject_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_APickupItem_Statics::NewProp_BPItem_MetaData, ARRAY_COUNT(Z_Construct_UClass_APickupItem_Statics::NewProp_BPItem_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickupItem_Statics::NewProp_itemType_MetaData[] = {
+		{ "Category", "Item" },
+		{ "ModuleRelativePath", "PickupItem.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_APickupItem_Statics::NewProp_itemType = { "itemType", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickupItem, itemType), Z_Construct_UEnum_KillEmDed_ItemType, METADATA_PARAMS(Z_Construct_UClass_APickupItem_Statics::NewProp_itemType_MetaData, ARRAY_COUNT(Z_Construct_UClass_APickupItem_Statics::NewProp_itemType_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_APickupItem_Statics::NewProp_itemType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickupItem_Statics::NewProp_Quantity_MetaData[] = {
 		{ "Category", "Item" },
@@ -207,7 +298,11 @@ void EmptyLinkFunctionForGeneratedCodePickupItem() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APickupItem_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickupItem_Statics::NewProp_Icon,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickupItem_Statics::NewProp_Mesh,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickupItem_Statics::NewProp_Particle,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickupItem_Statics::NewProp_ProxSphere,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickupItem_Statics::NewProp_BPItem,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickupItem_Statics::NewProp_itemType,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickupItem_Statics::NewProp_itemType_Underlying,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickupItem_Statics::NewProp_Quantity,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickupItem_Statics::NewProp_Name,
 	};
@@ -238,7 +333,7 @@ void EmptyLinkFunctionForGeneratedCodePickupItem() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APickupItem, 2020582627);
+	IMPLEMENT_CLASS(APickupItem, 1128818093);
 	template<> KILLEMDED_API UClass* StaticClass<APickupItem>()
 	{
 		return APickupItem::StaticClass();

@@ -1,0 +1,1138 @@
+﻿Log file open, 03/24/20 19:28:58
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: KillEmDed
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.344446
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.32.0
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, GPU: NVIDIA GeForce GTX 1080 Ti
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Program Files/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.03.24-19.29.00:556][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.03.24-19.29.00:556][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.03.24-19.29.00:556][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/Config/Windows/Engine.ini]
+[2020.03.24-19.29.00:556][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.03.24-19.29.00:556][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2020.03.24-19.29.00:556][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2020.03.24-19.29.00:556][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2020.03.24-19.29.00:556][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2020.03.24-19.29.00:556][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2020.03.24-19.29.00:556][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2020.03.24-19.29.00:556][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2020.03.24-19.29.00:556][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2020.03.24-19.29.00:556][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2020.03.24-19.29.00:556][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2020.03.24-19.29.00:556][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2020.03.24-19.29.00:556][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2020.03.24-19.29.00:556][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2020.03.24-19.29.00:556][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2020.03.24-19.29.00:556][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2020.03.24-19.29.00:556][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2020.03.24-19.29.00:556][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2020.03.24-19.29.00:556][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2020.03.24-19.29.00:556][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.DOF.Algorithm:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.UsePreExposure:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/Config/Windows/Engine.ini]
+[2020.03.24-19.29.00:557][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/Config/Windows/Engine.ini]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/Config/Windows/Engine.ini]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.03.24-19.29.00:557][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.03.24-19.29.00:558][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.03.24-19.29.00:558][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.03.24-19.29.00:558][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.03.24-19.29.00:558][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.03.24-19.29.00:558][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.03.24-19.29.00:558][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.03.24-19.29.00:558][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.03.24-19.29.00:558][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.03.24-19.29.00:558][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.03.24-19.29.00:558][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/Config/Windows/Engine.ini]
+[2020.03.24-19.29.00:558][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/Config/Windows/Engine.ini]
+[2020.03.24-19.29.00:559][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/Config/Windows/Scalability.ini]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/Config/Windows/Scalability.ini]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/Config/Windows/Scalability.ini]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/Config/Windows/Scalability.ini]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.24-19.29.00:559][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/Config/Windows/Scalability.ini]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/Config/Windows/Scalability.ini]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/Config/Windows/Scalability.ini]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.24-19.29.00:560][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.24-19.29.00:560][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.24-19.29.00:560][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.24-19.29.00:577][  0]LogHAL: Display: Platform has ~ 16 GB [17134903296 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.03.24-19.29.00:577][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.03.24-19.29.00:577][  0]LogInit: Going up to parent DeviceProfile []
+[2020.03.24-19.29.00:577][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/Config/Windows/Scalability.ini]
+[2020.03.24-19.29.00:577][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.24-19.29.00:577][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.24-19.29.00:577][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/Config/Windows/Scalability.ini]
+[2020.03.24-19.29.00:577][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/Config/Windows/Scalability.ini]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/Config/Windows/Scalability.ini]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/Config/Windows/Scalability.ini]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/Config/Windows/Scalability.ini]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/Config/Windows/Scalability.ini]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.03.24-19.29.00:578][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/Config/Windows/Engine.ini]
+[2020.03.24-19.29.00:579][  0]LogInit: Computer: VERONICAMCHUMPI
+[2020.03.24-19.29.00:579][  0]LogInit: User: VeronicaMcHumpinSlut
+[2020.03.24-19.29.00:579][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.03.24-19.29.00:579][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.24-19.29.00:579][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.03.24-19.29.00:579][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.24-19.29.00:579][  0]LogMemory: Process Physical Memory: 100.80 MB used, 100.81 MB peak
+[2020.03.24-19.29.00:579][  0]LogMemory: Process Virtual Memory: 93.09 MB used, 93.09 MB peak
+[2020.03.24-19.29.00:579][  0]LogMemory: Physical Memory: 5175.05 MB used,  11166.07 MB free, 16341.12 MB total
+[2020.03.24-19.29.00:579][  0]LogMemory: Virtual Memory: 4659.22 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2020.03.24-19.29.01:927][  0]LogInit: Using OS detected language (en-GB).
+[2020.03.24-19.29.01:927][  0]LogInit: Using OS detected locale (en-GB).
+[2020.03.24-19.29.01:928][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2020.03.24-19.29.02:092][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.24-19.29.02:184][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.03.24-19.29.02:184][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.03.24-19.29.04:485][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2020.03.24-19.29.04:485][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.24-19.29.04:547][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2020.03.24-19.29.04:547][  0]LogD3D11RHI:       11127/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.03.24-19.29.04:549][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.24-19.29.04:549][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.24-19.29.04:549][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.03.24-19.29.04:555][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.24-19.29.04:555][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2020.03.24-19.29.04:555][  0]LogWindows: EnumDisplayDevices:
+[2020.03.24-19.29.04:555][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2020.03.24-19.29.04:555][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2020.03.24-19.29.04:555][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2020.03.24-19.29.04:556][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2020.03.24-19.29.04:556][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.03.24-19.29.04:556][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2020.03.24-19.29.04:556][  0]LogD3D11RHI:   Driver Version: 442.74 (internal:26.21.14.4274, unified:442.74)
+[2020.03.24-19.29.04:556][  0]LogD3D11RHI:      Driver Date: 3-13-2020
+[2020.03.24-19.29.04:556][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
+[2020.03.24-19.29.04:591][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.24-19.29.04:604][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.03.24-19.29.04:604][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.03.24-19.29.04:604][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.03.24-19.29.04:611][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.03.24-19.29.04:612][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061085).
+[2020.03.24-19.29.04:883][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.03.24-19.29.04:939][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.03.24-19.29.04:965][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.03.24-19.29.04:988][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.03.24-19.29.05:059][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.03.24-19.29.05:286][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.03.24-19.29.05:330][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.03.24-19.29.05:400][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.03.24-19.29.05:444][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.03.24-19.29.05:565][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.03.24-19.29.05:565][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.03.24-19.29.05:565][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.03.24-19.29.05:565][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.03.24-19.29.05:565][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.03.24-19.29.05:565][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.03.24-19.29.05:565][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.03.24-19.29.05:565][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.03.24-19.29.05:565][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.03.24-19.29.05:565][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.03.24-19.29.05:565][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.03.24-19.29.05:565][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.03.24-19.29.05:565][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.03.24-19.29.05:565][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.03.24-19.29.05:565][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.03.24-19.29.05:565][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.03.24-19.29.05:565][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.03.24-19.29.05:565][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.03.24-19.29.05:589][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.03.24-19.29.06:097][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.03.24-19.29.06:097][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.03.24-19.29.06:142][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.03.24-19.29.06:142][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.03.24-19.29.06:176][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.03.24-19.29.06:198][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.03.24-19.29.06:244][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.03.24-19.29.06:315][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.03.24-19.29.06:383][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.03.24-19.29.06:383][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.03.24-19.29.06:383][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.24-19.29.06:705][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.03.24-19.29.07:529][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Intermediate/Shaders/WorkingDirectory/14376/).
+[2020.03.24-19.29.07:529][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/VeronicaMcHumpinSlut/AppData/Local/Temp/UnrealShaderWorkingDir/0AFBCB5E453EA5E29CF6A18BCD5DB918/'.
+[2020.03.24-19.29.07:530][  0]LogXGEController: Cleaning working directory: C:/Users/VeronicaMcHumpinSlut/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.03.24-19.29.07:530][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.03.24-19.29.07:531][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.03.24-19.29.07:531][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.24-19.29.09:318][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.24-19.29.09:356][  0]LogDerivedDataCache: Loaded boot cache 0.04s 73MB C:/Users/VeronicaMcHumpinSlut/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.03.24-19.29.09:356][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/VeronicaMcHumpinSlut/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.03.24-19.29.09:356][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.24-19.29.09:356][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.24-19.29.09:356][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.24-19.29.09:356][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.24-19.29.09:449][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.24-19.29.09:449][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.24-19.29.09:450][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.03.24-19.29.09:461][  0]LogDerivedDataCache: Using Local data cache path C:/Users/VeronicaMcHumpinSlut/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.24-19.29.09:461][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.03.24-19.29.09:461][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.03.24-19.29.09:485][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.24-19.29.09:486][  0]LogSlate: Using FreeType 2.6.0
+[2020.03.24-19.29.09:504][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.24-19.29.09:677][  0]LogAssetRegistry: FAssetRegistry took 0.0302 seconds to start up
+[2020.03.24-19.29.09:978][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.24-19.29.10:833][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.24-19.29.10:833][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.03.24-19.29.10:833][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.03.24-19.29.10:833][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.03.24-19.29.10:833][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.03.24-19.29.10:874][  0]LogNetVersion: KillEmDed 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 3428918574)
+[2020.03.24-19.29.12:570][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.036557 seconds
+[2020.03.24-19.29.12:576][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.03.24-19.29.12:576][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.03.24-19.29.12:576][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.24-19.29.16:962][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.24-19.29.17:000][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.24-19.29.17:441][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.133 s
+[2020.03.24-19.29.17:441][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2020.03.24-19.29.17:441][  0]LogOutputDevice: Error: 
+[2020.03.24-19.29.17:441][  0]LogOutputDevice: Error: Ensure condition failed: AttachmentRules.LocationRule == EAttachmentRule::KeepRelative && AttachmentRules.RotationRule == EAttachmentRule::KeepRelative && AttachmentRules.ScaleRule == EAttachmentRule::KeepRelative [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 1786]
+[2020.03.24-19.29.17:441][  0]LogOutputDevice: Error: AttachToComponent when called from a constructor is only setting up attachment and will always be treated as KeepRelative. Consider calling SetupAttachment directly instead.
+[2020.03.24-19.29.17:441][  0]LogOutputDevice: Error: Stack: 
+[2020.03.24-19.29.17:441][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa4352cd89 UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.24-19.29.17:441][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa42364fa1 UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.24-19.29.17:441][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa2fd452eb UE4Editor-KillEmDed-8042.dll!AARotator::AARotator() [D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Source\KillEmDed\ARotator.cpp:17]
+[2020.03.24-19.29.17:441][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7370610f UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.03.24-19.29.17:441][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa73941056 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.03.24-19.29.17:441][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7392edef UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.03.24-19.29.17:441][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7370a727 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.03.24-19.29.17:442][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa49c24a2b UE4Editor-Core.dll!UnknownFunction []
+[2020.03.24-19.29.17:442][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa49df5cb5 UE4Editor-Core.dll!UnknownFunction []
+[2020.03.24-19.29.17:442][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7bd88d67 UE4Editor-Projects.dll!UnknownFunction []
+[2020.03.24-19.29.17:442][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa7bd88ff7 UE4Editor-Projects.dll!UnknownFunction []
+[2020.03.24-19.29.17:442][  0]LogOutputDevice: Error: [Callstack] 0x00007ff772d57eb1 UE4Editor.exe!UnknownFunction []
+[2020.03.24-19.29.17:442][  0]LogOutputDevice: Error: [Callstack] 0x00007ff772d5d671 UE4Editor.exe!UnknownFunction []
+[2020.03.24-19.29.17:442][  0]LogOutputDevice: Error: [Callstack] 0x00007ff772d55377 UE4Editor.exe!UnknownFunction []
+[2020.03.24-19.29.17:442][  0]LogOutputDevice: Error: [Callstack] 0x00007ff772d555ca UE4Editor.exe!UnknownFunction []
+[2020.03.24-19.29.17:442][  0]LogOutputDevice: Error: [Callstack] 0x00007ff772d6316c UE4Editor.exe!UnknownFunction []
+[2020.03.24-19.29.17:442][  0]LogOutputDevice: Error: [Callstack] 0x00007ff772d65b8e UE4Editor.exe!UnknownFunction []
+[2020.03.24-19.29.17:442][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa90237bd4 KERNEL32.DLL!UnknownFunction []
+[2020.03.24-19.29.17:442][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa9102ced1 ntdll.dll!UnknownFunction []
+[2020.03.24-19.29.17:442][  0]LogOutputDevice: Error: 
+[2020.03.24-19.29.17:478][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2020.03.24-19.29.17:963][  0]LogStats:                    SendNewReport -  0.485 s
+[2020.03.24-19.29.17:963][  0]LogStats:             FDebug::EnsureFailed -  0.654 s
+[2020.03.24-19.29.19:077][  0]SourceControl: Source control is disabled
+[2020.03.24-19.29.19:077][  0]SourceControl: Source control is disabled
+[2020.03.24-19.29.19:181][  0]SourceControl: Source control is disabled
+[2020.03.24-19.29.19:197][  0]SourceControl: Source control is disabled
+[2020.03.24-19.29.20:381][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.24-19.29.20:918][  0]LogOcInput: OculusInput pre-init called
+[2020.03.24-19.29.22:045][  0]LogEngine: Initializing Engine...
+[2020.03.24-19.29.22:070][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2020.03.24-19.29.22:071][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.03.24-19.29.22:660][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.03.24-19.29.22:698][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.24-19.29.22:731][  0]LogInit: XAudio2 using 'C49HG9x (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.24-19.29.22:763][  0]LogInit: FAudioDevice initialized.
+[2020.03.24-19.29.22:764][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.03.24-19.29.22:891][  0]LogDerivedDataCache: Saved boot cache 0.13s 73MB C:/Users/VeronicaMcHumpinSlut/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.03.24-19.29.22:899][  0]LogInit: Texture streaming: Enabled
+[2020.03.24-19.29.23:006][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.24-19.29.23:123][  0]LogInit: Transaction tracking system initialized
+[2020.03.24-19.29.23:275][  0]BlueprintLog: New page: Editor Load
+[2020.03.24-19.29.24:180][  0]LocalizationService: Localization service is disabled
+[2020.03.24-19.29.25:564][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.24-19.29.25:564][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.24-19.29.26:510][  0]LogFileCache: Scanning file cache for directory 'D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/' took 0.02s
+[2020.03.24-19.29.26:950][  0]SourceControl: Source control is disabled
+[2020.03.24-19.29.26:950][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.24-19.29.26:954][  0]LightingResults: New page: Lighting Build
+[2020.03.24-19.29.26:955][  0]MapCheck: New page: Map Check
+[2020.03.24-19.29.26:955][  0]LightingResults: New page: Lighting Build
+[2020.03.24-19.29.26:973][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2020.03.24-19.29.27:232][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.03.24-19.29.27:252][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.24-19.29.27:271][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.03.24-19.29.27:271][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.24-19.29.27:272][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.104ms to complete.
+[2020.03.24-19.29.27:272][  0]LogFileHelpers: Loading map 'Template_Default' took 0.321
+[2020.03.24-19.29.27:376][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.24-19.29.27:381][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.24-19.29.27:387][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.24-19.29.27:392][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.24-19.29.27:424][  0]LogCollectionManager: Loaded 0 collections in 0.001174 seconds
+[2020.03.24-19.29.27:461][  0]LogFileCache: Scanning file cache for directory 'D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/Collections/' took 0.01s
+[2020.03.24-19.29.27:461][  0]LogFileCache: Scanning file cache for directory 'D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/Developers/VeronicaMcHumpinSlut/Collections/' took 0.01s
+[2020.03.24-19.29.27:461][  0]LogFileCache: Scanning file cache for directory 'D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/Collections/' took 0.01s
+[2020.03.24-19.29.27:461][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.03.24-19.29.27:469][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 2743 classes and 661 folders.
+[2020.03.24-19.29.27:471][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.03.24-19.29.27:476][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:480][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:491][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:495][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:498][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:502][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:506][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:509][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:513][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:517][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:521][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:524][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:528][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:532][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:535][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:538][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:559][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:562][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:566][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:569][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:573][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:577][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:581][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:585][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:589][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:593][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.03.24-19.29.27:691][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.03.24-19.29.27:730][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.03.24-19.29.27:816][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.03.24-19.29.27:816][  0]LogLoad: (Engine Initialization) Total time: 31.65 seconds
+[2020.03.24-19.29.27:816][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.24-19.29.27:851][  0]LogAssetRegistry: Asset discovery search completed in 18.1951 seconds
+[2020.03.24-19.29.27:852][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.03.24-19.29.27:852][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000031 seconds (updated 0 objects)
+[2020.03.24-19.29.27:853][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.24-19.29.27:861][  0]LogSlate: Took 0.003165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.24-19.29.27:865][  0]LogSlate: Took 0.002962 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.24-19.29.27:871][  0]LogSlate: Took 0.003410 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.24-19.29.28:052][  0]LogSlate: Took 0.003293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.24-19.29.28:070][  1]LogRenderer: Reallocating scene render targets to support 804x336 Format 10 NumSamples 1 (Frame:1).
+[2020.03.24-19.29.28:843][ 87]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.24-19.29.38:292][175]LogRenderer: Reallocating scene render targets to support 1204x540 Format 10 NumSamples 1 (Frame:1177).
+[2020.03.24-19.29.39:921][181]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.24-19.29.43:259][502]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2020.03.24-19.29.43:259][502]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2020.03.24-19.29.43:259][502]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2020.03.24-19.29.43:259][502]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2020.03.24-19.29.43:259][502]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2020.03.24-19.29.43:259][502]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2020.03.24-19.29.43:267][502]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [0047.10] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 32 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2020.03.24-19.29.43:404][502]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_Avatar.BP_Avatar
+[2020.03.24-19.29.43:778][502]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
+[2020.03.24-19.29.44:539][502]LogSlate: Took 0.003686 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.03.24-19.29.44:887][514]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_FireballPickup.BP_FireballPickup
+[2020.03.24-19.29.46:961][731]LogRenderer: Reallocating scene render targets to support 1204x644 Format 10 NumSamples 1 (Frame:1).
+[2020.03.24-19.29.48:111][864]LogConsoleManager: Warning: Console object named 'ActorComponents.Enable' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
+[2020.03.24-19.30.00:262][296]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2020.03.24-19.30.15:150][296]LogTexture: Display: Building textures: T_ky_bg (AutoDXT, 64X64)
+[2020.03.24-19.30.15:150][296]LogMaterial: Display: Missing cached shader map for material M_ky_subUV01, compiling. 
+[2020.03.24-19.30.15:655][296]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.03.24-19.30.15:655][296]LogTexture: Display: Building textures: T_ky_shockwave12_4x4 (DXT1, 2048X2048)
+[2020.03.24-19.30.15:655][296]LogMaterial: Display: Missing cached shader map for material M_ky_polar, compiling. 
+[2020.03.24-19.30.17:354][296]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.03.24-19.30.17:354][296]LogTexture: Display: Building textures: T_ky_stone02_2x2 (AutoDXT, 1024X1024)
+[2020.03.24-19.30.17:354][296]LogTexture: Display: Building textures: T_ky_noise4 (AutoDXT, 1024X1024)
+[2020.03.24-19.30.17:354][296]LogTexture: Display: Building textures: T_ky_maskRGB3 (DXT1, 1024X1024)
+[2020.03.24-19.30.17:354][296]LogTexture: Display: Building textures: T_ky_noise17 (DXT1, 2048X2048)
+[2020.03.24-19.30.17:354][296]LogTexture: Display: Building textures: T_ky_vortex04_4x4 (DXT1, 2048X2048)
+[2020.03.24-19.30.17:354][296]LogMaterial: Display: Missing cached shader map for material M_ky_stone02, compiling. 
+[2020.03.24-19.30.17:458][296]LogStaticMesh: Building static mesh SM_ky_tornado07...
+[2020.03.24-19.30.17:458][296]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.03.24-19.30.17:460][296]LogBlueprintActionDatabase: Requesting refresh due to module change: MeshBuilder (loaded)
+[2020.03.24-19.30.17:472][296]LogStaticMesh: Built static mesh [0.01s] /Game/FXVarietyPack/Meshes/SM_ky_tornado07.SM_ky_tornado07
+[2020.03.24-19.30.17:513][296]LogMaterial: Display: Missing cached shader map for material M_ky_stormDeco01, compiling. 
+[2020.03.24-19.30.17:665][296]LogMaterial: Display: Missing cached shader map for material M_ky_storm01, compiling. 
+[2020.03.24-19.30.18:064][296]LogMaterial: Display: Missing cached shader map for material M_ky_vortex04_4x4, compiling. 
+[2020.03.24-19.30.18:088][296]LogMaterial: Display: Missing cached shader map for material M_ky_vortex04_4x4, compiling. 
+[2020.03.24-19.30.18:111][296]LogStaticMesh: Building static mesh SM_ky_circleDist06...
+[2020.03.24-19.30.18:111][296]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.03.24-19.30.18:115][296]LogStaticMesh: Built static mesh [0.00s] /Game/FXVarietyPack/Meshes/SM_ky_circleDist06.SM_ky_circleDist06
+[2020.03.24-19.30.18:118][296]LogMaterial: Display: Missing cached shader map for material M_ky_storm01, compiling. 
+[2020.03.24-19.30.31:604][296]LogSlate: Window 'Delete Assets' being destroyed
+[2020.03.24-19.30.31:691][296]LogSlate: Window 'BP_FireballPickup' being destroyed
+[2020.03.24-19.30.31:693][296]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.03.24-19.30.31:779][296]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/BP_FireballPickup.BP_FireballPickup
+[2020.03.24-19.30.33:352][296]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2020.03.24-19.30.34:560][296]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2020.03.24-19.30.34:579][296]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.03.24-19.30.34:601][296]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.03.24-19.30.35:833][394]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_Health.BP_Health
+[2020.03.24-19.30.38:102][614]LogSlate: Window 'BP_Health' being destroyed
+[2020.03.24-19.30.38:165][614]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_Health.BP_Health
+[2020.03.24-19.31.09:952][387]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_FireballPickup.BP_FireballPickup
+[2020.03.24-19.31.10:194][387]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.03.24-19.31.13:516][775]LogSlate: Took 0.003341 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.03.24-19.31.27:830][437]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (52.969 sec). This should never happen. Something is wrong with the timer delegate!
+[2020.03.24-19.31.40:945][  3]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.03.24-19.31.55:731][662]BlueprintLog: New page: Compile BP_FireballPickup
+[2020.03.24-19.31.55:911][662]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2020.03.24-19.31.56:323][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_FireballPickup" FILE="../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/BP_FireballPickup.uasset" SILENT=true
+[2020.03.24-19.31.56:338][706]LogSavePackage: Moving '../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/BP_FireballPickup6FC287FE4002E6A83017039B9DFE9872.tmp' to '../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/BP_FireballPickup.uasset'
+[2020.03.24-19.31.58:679][982]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_Avatar.BP_Avatar
+[2020.03.24-19.34.11:267][938]LogAssetEditorManager: Opening Asset editor for Class /Script/KillEmDed.PickupItem
+[2020.03.24-19.35.18:010][153]Candidate modules for hot reload:
+[2020.03.24-19.35.18:010][153]  KillEmDed
+[2020.03.24-19.35.18:010][153]Launching UnrealBuildTool... [D:/Program Files/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=KillEmDed,3358 Win64 Development -TargetType=Editor -Project="D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/KillEmDed.uproject" "D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/KillEmDed.uproject"  -IgnoreJunk]
+[2020.03.24-19.35.18:017][153]Warning: Starting HotReload took  0.0s.
+[2020.03.24-19.35.32:290][759]CompilerResultsLog: New page: Compilation - 24 Mar 2020 19:35:32
+[2020.03.24-19.35.32:290][759]CompilerResultsLog: WARNING: Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
+[2020.03.24-19.35.32:290][759]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\VeronicaMcHumpinSlut\Documents\KillEmDed).
+[2020.03.24-19.35.32:290][759]CompilerResultsLog: Creating makefile for KillEmDedEditor (ini files are newer than makefile)
+[2020.03.24-19.35.32:290][759]CompilerResultsLog: Parsing headers for KillEmDedEditor
+[2020.03.24-19.35.32:290][759]CompilerResultsLog:   Running UnrealHeaderTool "D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\KillEmDed.uproject" "D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\KillEmDedEditor\Development\KillEmDedEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.03.24-19.35.32:290][759]CompilerResultsLog: Reflection code generated for KillEmDedEditor in 6.1315591 seconds
+[2020.03.24-19.35.32:290][759]CompilerResultsLog: Using Visual Studio 2019 14.25.28610 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.24-19.35.32:290][759]CompilerResultsLog: Building 14 actions with 8 processes...
+[2020.03.24-19.35.32:290][759]CompilerResultsLog:   [1/14] KillEmDed.init.gen.cpp
+[2020.03.24-19.35.32:290][759]CompilerResultsLog:   [2/14] Avatar.gen.cpp
+[2020.03.24-19.35.32:290][759]CompilerResultsLog:   [3/14] Avatar.cpp
+[2020.03.24-19.35.32:290][759]CompilerResultsLog:   D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Source\KillEmDed\Avatar.cpp(34): warning C4458: declaration of 'InputComponent' hides class member
+[2020.03.24-19.35.32:290][759]CompilerResultsLog:   D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(474): note: see declaration of 'AActor::InputComponent'
+[2020.03.24-19.35.32:290][759]CompilerResultsLog:    D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Source\KillEmDed\Avatar.cpp(145) : error C2065: 'BPBullet': undeclared identifier
+[2020.03.24-19.35.32:290][759]CompilerResultsLog:   [4/14] AEnemy.gen.cpp
+[2020.03.24-19.35.32:290][759]CompilerResultsLog:   [5/14] NpcCharacter.cpp
+[2020.03.24-19.35.32:290][759]CompilerResultsLog:   [6/14] NpcCharacter.gen.cpp
+[2020.03.24-19.35.32:290][759]CompilerResultsLog:   [7/14] EnemySpawner.cpp
+[2020.03.24-19.35.32:290][759]CompilerResultsLog:   [8/14] playerHud.gen.cpp
+[2020.03.24-19.35.32:290][759]CompilerResultsLog:   [9/14] PickupItem.cpp
+[2020.03.24-19.35.32:290][759]CompilerResultsLog:   [10/14] AEnemy.cpp
+[2020.03.24-19.35.32:290][759]CompilerResultsLog:   [11/14] playerHud.cpp
+[2020.03.24-19.35.32:290][759]LogMainFrame: MainFrame: Module compiling took 14.283 seconds
+[2020.03.24-19.35.32:290][759]Warning: HotReload failed, recompile failed
+[2020.03.24-19.36.17:602][713]Candidate modules for hot reload:
+[2020.03.24-19.36.17:602][713]  KillEmDed
+[2020.03.24-19.36.17:603][713]Launching UnrealBuildTool... [D:/Program Files/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=KillEmDed,2566 Win64 Development -TargetType=Editor -Project="D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/KillEmDed.uproject" "D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/KillEmDed.uproject"  -IgnoreJunk]
+[2020.03.24-19.36.17:607][713]Warning: Starting HotReload took  0.0s.
+[2020.03.24-19.36.27:383][854]CompilerResultsLog: New page: Compilation - 24 Mar 2020 19:36:27
+[2020.03.24-19.36.27:384][854]CompilerResultsLog: WARNING: Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
+[2020.03.24-19.36.27:384][854]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\VeronicaMcHumpinSlut\Documents\KillEmDed).
+[2020.03.24-19.36.27:384][854]CompilerResultsLog: Parsing headers for KillEmDedEditor
+[2020.03.24-19.36.27:384][854]CompilerResultsLog:   Running UnrealHeaderTool "D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\KillEmDed.uproject" "D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\KillEmDedEditor\Development\KillEmDedEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.03.24-19.36.27:384][854]CompilerResultsLog: Reflection code generated for KillEmDedEditor in 5.8648699 seconds
+[2020.03.24-19.36.27:384][854]CompilerResultsLog: Using Visual Studio 2019 14.25.28610 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.24-19.36.27:384][854]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.03.24-19.36.27:384][854]CompilerResultsLog:   [1/4] Avatar.cpp
+[2020.03.24-19.36.27:384][854]CompilerResultsLog:   D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Source\KillEmDed\Avatar.cpp(35): warning C4458: declaration of 'InputComponent' hides class member
+[2020.03.24-19.36.27:384][854]CompilerResultsLog:   D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(474): note: see declaration of 'AActor::InputComponent'
+[2020.03.24-19.36.27:384][854]CompilerResultsLog:   [2/4] UE4Editor-KillEmDed-2566.lib
+[2020.03.24-19.36.27:384][854]CompilerResultsLog:      Creating library D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\UE4Editor-KillEmDed-2566.lib and object D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\UE4Editor-KillEmDed-2566.exp
+[2020.03.24-19.36.27:384][854]CompilerResultsLog:   [3/4] UE4Editor-KillEmDed-2566.dll
+[2020.03.24-19.36.27:384][854]CompilerResultsLog:      Creating library D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\UE4Editor-KillEmDed-2566.suppressed.lib and object D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\UE4Editor-KillEmDed-2566.suppressed.exp
+[2020.03.24-19.36.27:384][854]CompilerResultsLog:   [4/4] KillEmDedEditor.target
+[2020.03.24-19.36.27:384][854]CompilerResultsLog: Total time in Parallel executor: 2.70 seconds
+[2020.03.24-19.36.27:384][854]CompilerResultsLog: Total execution time: 9.70 seconds
+[2020.03.24-19.36.27:384][854]LogMainFrame: MainFrame: Module compiling took 9.784 seconds
+[2020.03.24-19.36.27:429][854]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2020.03.24-19.36.27:429][854]LogBlueprintActionDatabase: Requesting refresh due to module change: KillEmDed (unloaded)
+[2020.03.24-19.36.27:445][854]LogClass: Could not find existing class Avatar in package /Script/KillEmDed for HotReload, assuming new class
+[2020.03.24-19.36.27:455][854]LogClass: ItemType HotReload.
+[2020.03.24-19.36.27:464][854]LogHotReload: Re-instancing Avatar after hot-reload.
+[2020.03.24-19.36.27:677][854]LogBlueprintActionDatabase: Requesting refresh due to module change: KillEmDed (loaded)
+[2020.03.24-19.36.27:678][854]LogContentBrowser: Native class hierarchy updated for 'KillEmDed' in 0.0004 seconds. Added 11 classes and 2 folders.
+[2020.03.24-19.36.27:681][854]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2020.03.24-19.36.27:814][854]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2020.03.24-19.36.27:814][854]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.03.24-19.36.27:832][854]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2744 classes and 663 folders.
+[2020.03.24-19.36.27:832][854]Display: HotReload took 10.2s.
+[2020.03.24-19.36.31:556][270]LogSlate: Window 'Message Log' being destroyed
+[2020.03.24-19.36.31:560][270]LogSlate: Window 'Message Log' being destroyed
+[2020.03.24-19.36.38:323][855]LogAIModule: Creating AISystem for world Main
+[2020.03.24-19.36.38:327][855]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Main.Main
+[2020.03.24-19.36.38:371][855]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2020.03.24-19.36.38:372][855]Cmd: MAP LOAD FILE="../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.24-19.36.38:372][855]LightingResults: New page: Lighting Build
+[2020.03.24-19.36.38:373][855]LoadErrors: New page: Loading map: Main.umap
+[2020.03.24-19.36.38:373][855]MapCheck: New page: Map Check
+[2020.03.24-19.36.38:373][855]LightingResults: New page: Lighting Build
+[2020.03.24-19.36.38:402][855]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2020.03.24-19.36.38:404][855]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.24-19.36.38:429][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2020.03.24-19.36.38:456][855]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.24-19.36.38:456][855]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.09ms to complete.
+[2020.03.24-19.36.38:456][855]LogFileHelpers: Loading map 'Main' took 0.085
+[2020.03.24-19.38.44:489][937]Candidate modules for hot reload:
+[2020.03.24-19.38.44:489][937]  KillEmDed
+[2020.03.24-19.38.44:489][937]Launching UnrealBuildTool... [D:/Program Files/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=KillEmDed,9935 Win64 Development -TargetType=Editor -Project="D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/KillEmDed.uproject" "D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/KillEmDed.uproject"  -IgnoreJunk]
+[2020.03.24-19.38.44:495][937]Warning: Starting HotReload took  0.0s.
+[2020.03.24-19.38.54:902][163]CompilerResultsLog: New page: Compilation - 24 Mar 2020 19:38:54
+[2020.03.24-19.38.54:902][163]CompilerResultsLog: WARNING: Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
+[2020.03.24-19.38.54:902][163]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\VeronicaMcHumpinSlut\Documents\KillEmDed).
+[2020.03.24-19.38.54:902][163]CompilerResultsLog: Creating makefile for KillEmDedEditor (ini files are newer than makefile)
+[2020.03.24-19.38.54:902][163]CompilerResultsLog: Parsing headers for KillEmDedEditor
+[2020.03.24-19.38.54:902][163]CompilerResultsLog:   Running UnrealHeaderTool "D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\KillEmDed.uproject" "D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\KillEmDedEditor\Development\KillEmDedEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.03.24-19.38.54:902][163]CompilerResultsLog: Reflection code generated for KillEmDedEditor in 6.014704 seconds
+[2020.03.24-19.38.54:902][163]CompilerResultsLog: Using Visual Studio 2019 14.25.28610 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.24-19.38.54:902][163]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.03.24-19.38.54:902][163]CompilerResultsLog:   [1/4] Avatar.cpp
+[2020.03.24-19.38.54:902][163]CompilerResultsLog:   D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Source\KillEmDed\Avatar.cpp(35): warning C4458: declaration of 'InputComponent' hides class member
+[2020.03.24-19.38.54:902][163]CompilerResultsLog:   D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(474): note: see declaration of 'AActor::InputComponent'
+[2020.03.24-19.38.54:902][163]CompilerResultsLog:   [2/4] UE4Editor-KillEmDed-9935.lib
+[2020.03.24-19.38.54:903][163]CompilerResultsLog:      Creating library D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\UE4Editor-KillEmDed-9935.lib and object D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\UE4Editor-KillEmDed-9935.exp
+[2020.03.24-19.38.54:903][163]CompilerResultsLog:   [3/4] UE4Editor-KillEmDed-9935.dll
+[2020.03.24-19.38.54:903][163]CompilerResultsLog:      Creating library D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\UE4Editor-KillEmDed-9935.suppressed.lib and object D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\UE4Editor-KillEmDed-9935.suppressed.exp
+[2020.03.24-19.38.54:903][163]CompilerResultsLog:   [4/4] KillEmDedEditor.target
+[2020.03.24-19.38.54:903][163]CompilerResultsLog: Total time in Parallel executor: 2.47 seconds
+[2020.03.24-19.38.54:903][163]CompilerResultsLog: Total execution time: 10.33 seconds
+[2020.03.24-19.38.54:903][163]LogMainFrame: MainFrame: Module compiling took 10.416 seconds
+[2020.03.24-19.38.54:932][163]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.03.24-19.38.54:932][163]LogBlueprintActionDatabase: Requesting refresh due to module change: KillEmDed (unloaded)
+[2020.03.24-19.38.54:961][163]LogClass: ItemType HotReload.
+[2020.03.24-19.38.54:972][163]LogBlueprintActionDatabase: Requesting refresh due to module change: KillEmDed (loaded)
+[2020.03.24-19.38.54:972][163]LogContentBrowser: Native class hierarchy updated for 'KillEmDed' in 0.0004 seconds. Added 11 classes and 2 folders.
+[2020.03.24-19.38.54:975][163]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2020.03.24-19.38.55:036][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2020.03.24-19.38.55:036][163]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.03.24-19.38.55:047][163]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 2744 classes and 663 folders.
+[2020.03.24-19.38.55:048][163]Display: HotReload took 10.6s.
+[2020.03.24-19.39.13:792][318]BlueprintLog: New page: Compile BP_Health
+[2020.03.24-19.39.14:055][318]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
+[2020.03.24-19.39.15:449][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Health" FILE="../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/BP_Health.uasset" SILENT=true
+[2020.03.24-19.39.15:494][479]LogSavePackage: Moving '../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/BP_Health7D7C0B474C570F248A2217BF6B7FCAAA.tmp' to '../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/BP_Health.uasset'
+[2020.03.24-19.39.16:154][557]BlueprintLog: New page: Compile BP_Health
+[2020.03.24-19.39.16:326][557]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.03.24-19.39.32:205][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.03.24-19.39.32:237][455]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2020.03.24-19.39.32:377][455]LogSavePackage: Moving '../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/MainBAB189C74E45AE15C0ACCD91B9B07EF9.tmp' to '../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/Maps/Main.umap'
+[2020.03.24-19.39.32:405][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2020.03.24-19.39.32:423][455]LogSavePackage: Moving '../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/Main_BuiltData5B1F2B3F4900C46F26C55E81CFF580F3.tmp' to '../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/Maps/Main_BuiltData.uasset'
+[2020.03.24-19.39.34:027][641]LogActor: Warning: BP_CubeRotator_C /Engine/Transient.World_15:PersistentLevel.BP_CubeRotator_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.03.24-19.40.04:998][329]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_ThunderballPickup.BP_ThunderballPickup
+[2020.03.24-19.40.05:306][329]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.03.24-19.40.19:824][ 39]LogMaterial: Display: Missing cached shader map for material M_ky_smoke01, compiling. 
+[2020.03.24-19.40.19:884][ 39]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.03.24-19.40.24:426][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ThunderballPickup" FILE="../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/BP_ThunderballPickup.uasset" SILENT=true
+[2020.03.24-19.40.24:442][518]LogSavePackage: Moving '../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/BP_ThunderballPickup234E9F624B059E58897E22A63A08A09E.tmp' to '../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/BP_ThunderballPickup.uasset'
+[2020.03.24-19.40.27:918][932]BlueprintLog: New page: Compile BP_ThunderballPickup
+[2020.03.24-19.40.28:090][932]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.03.24-19.40.28:529][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ThunderballPickup" FILE="../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/BP_ThunderballPickup.uasset" SILENT=true
+[2020.03.24-19.40.28:550][982]LogSavePackage: Moving '../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/BP_ThunderballPickupDEB15E2C436E658B5E9A29AB0F3D51D8.tmp' to '../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/BP_ThunderballPickup.uasset'
+[2020.03.24-19.40.41:299][506]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_Thunderball.BP_Thunderball
+[2020.03.24-19.40.41:545][506]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.03.24-19.40.53:663][938]BlueprintLog: New page: Compile BP_Thunderball
+[2020.03.24-19.40.53:835][938]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2020.03.24-19.40.54:267][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Thunderball" FILE="../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/BP_Thunderball.uasset" SILENT=true
+[2020.03.24-19.40.54:279][987]LogSavePackage: Moving '../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/BP_Thunderball918436BD49055DAD2A49A1A61AA4A57C.tmp' to '../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/BP_Thunderball.uasset'
+[2020.03.24-19.41.05:456][312]BlueprintLog: New page: Compile BP_Thunderball
+[2020.03.24-19.41.05:619][312]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2020.03.24-19.41.05:959][348]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Thunderball" FILE="../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/BP_Thunderball.uasset" SILENT=true
+[2020.03.24-19.41.05:974][348]LogSavePackage: Moving '../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/BP_Thunderball68AD87614D7E3A7250ADABA2F9530D96.tmp' to '../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/BP_Thunderball.uasset'
+[2020.03.24-19.41.13:355][224]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.03.24-19.41.28:054][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ThunderballPickup" FILE="../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/BP_ThunderballPickup.uasset" SILENT=true
+[2020.03.24-19.41.28:071][968]LogSavePackage: Moving '../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/BP_ThunderballPickup59F3296842E9CC7D11188D90B3C469A5.tmp' to '../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/BP_ThunderballPickup.uasset'
+[2020.03.24-19.41.32:825][534]BlueprintLog: New page: Compile BP_ThunderballPickup
+[2020.03.24-19.41.32:985][534]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2020.03.24-19.41.33:473][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ThunderballPickup" FILE="../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/BP_ThunderballPickup.uasset" SILENT=true
+[2020.03.24-19.41.33:489][587]LogSavePackage: Moving '../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/BP_ThunderballPickupC3C946074DCECAB9C66B6B8203A66260.tmp' to '../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/BP_ThunderballPickup.uasset'
+[2020.03.24-19.41.56:999][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.03.24-19.42.15:450][559]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.24-19.42.15:549][570]Candidate modules for hot reload:
+[2020.03.24-19.42.15:549][570]  KillEmDed
+[2020.03.24-19.42.15:549][570]Launching UnrealBuildTool... [D:/Program Files/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=KillEmDed,5825 Win64 Development -TargetType=Editor -Project="D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/KillEmDed.uproject" "D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/KillEmDed.uproject"  -IgnoreJunk]
+[2020.03.24-19.42.15:554][570]Warning: Starting HotReload took  0.0s.
+[2020.03.24-19.42.19:773][ 31]LogSlate: Window 'BP_Thunderball' being destroyed
+[2020.03.24-19.42.19:777][ 31]LogSlate: Window 'BP_Thunderball' being destroyed
+[2020.03.24-19.42.19:850][ 31]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.03.24-19.42.19:916][ 31]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.03.24-19.42.19:976][ 31]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.03.24-19.42.20:030][ 31]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.03.24-19.42.24:259][524]CompilerResultsLog: New page: Compilation - 24 Mar 2020 19:42:24
+[2020.03.24-19.42.24:259][524]CompilerResultsLog: WARNING: Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
+[2020.03.24-19.42.24:259][524]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\VeronicaMcHumpinSlut\Documents\KillEmDed).
+[2020.03.24-19.42.24:259][524]CompilerResultsLog: Creating makefile for KillEmDedEditor (ini files are newer than makefile)
+[2020.03.24-19.42.24:259][524]CompilerResultsLog: Parsing headers for KillEmDedEditor
+[2020.03.24-19.42.24:259][524]CompilerResultsLog:   Running UnrealHeaderTool "D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\KillEmDed.uproject" "D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\KillEmDedEditor\Development\KillEmDedEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.03.24-19.42.24:259][524]CompilerResultsLog: Reflection code generated for KillEmDedEditor in 5.9391218 seconds
+[2020.03.24-19.42.24:259][524]CompilerResultsLog: Using Visual Studio 2019 14.25.28610 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.24-19.42.24:259][524]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.03.24-19.42.24:259][524]CompilerResultsLog:   [1/3] UE4Editor-KillEmDed-5825.lib
+[2020.03.24-19.42.24:259][524]CompilerResultsLog:      Creating library D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\UE4Editor-KillEmDed-5825.lib and object D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\UE4Editor-KillEmDed-5825.exp
+[2020.03.24-19.42.24:259][524]CompilerResultsLog:   [2/3] UE4Editor-KillEmDed-5825.dll
+[2020.03.24-19.42.24:259][524]CompilerResultsLog:      Creating library D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\UE4Editor-KillEmDed-5825.suppressed.lib and object D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\UE4Editor-KillEmDed-5825.suppressed.exp
+[2020.03.24-19.42.24:259][524]CompilerResultsLog:   [3/3] KillEmDedEditor.target
+[2020.03.24-19.42.24:259][524]CompilerResultsLog: Total time in Parallel executor: 0.83 seconds
+[2020.03.24-19.42.24:259][524]CompilerResultsLog: Total execution time: 8.63 seconds
+[2020.03.24-19.42.24:259][524]LogMainFrame: MainFrame: Module compiling took 8.713 seconds
+[2020.03.24-19.42.24:301][524]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2020.03.24-19.42.24:301][524]LogBlueprintActionDatabase: Requesting refresh due to module change: KillEmDed (unloaded)
+[2020.03.24-19.42.24:330][524]LogClass: ItemType HotReload.
+[2020.03.24-19.42.24:340][524]LogBlueprintActionDatabase: Requesting refresh due to module change: KillEmDed (loaded)
+[2020.03.24-19.42.24:340][524]LogContentBrowser: Native class hierarchy updated for 'KillEmDed' in 0.0004 seconds. Added 11 classes and 2 folders.
+[2020.03.24-19.42.24:343][524]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2020.03.24-19.42.24:427][524]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.03.24-19.42.24:427][524]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.03.24-19.42.24:439][524]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2744 classes and 663 folders.
+[2020.03.24-19.42.24:439][524]Display: HotReload took  8.9s.
+[2020.03.24-19.42.27:350][840]MapCheck: New page: Map Check
+[2020.03.24-19.42.27:470][840]Cmd: MAP REBUILD ALLVISIBLE
+[2020.03.24-19.42.27:517][840]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.03.24-19.42.27:618][840]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2020.03.24-19.42.27:668][840]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.03.24-19.42.27:674][840]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.03.24-19.42.27:680][840]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.03.24-19.42.27:686][840]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.03.24-19.42.27:691][840]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.03.24-19.42.27:696][840]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.03.24-19.42.27:702][840]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.03.24-19.42.27:707][840]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.03.24-19.42.27:715][840]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.03.24-19.42.27:724][840]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.03.24-19.42.27:738][840]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.03.24-19.42.28:720][840]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.03.24-19.42.28:720][840]TextureStreamingBuild: Display: Compiling optional shaders took 1.073 seconds.
+[2020.03.24-19.42.28:816][840]LogLevel: Display: Export Material TexCoord Scales took 0.095 seconds.
+[2020.03.24-19.42.28:855][840]TextureStreamingBuild: Display: Build Texture Streaming took 0.019 seconds.
+[2020.03.24-19.42.28:891][840]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2020.03.24-19.42.28:905][840]LightingResults: New page: Lighting Build - 24 Mar 2020 19:42:28
+[2020.03.24-19.42.29:059][840]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.03.24-19.42.29:285][840]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.03.24-19.42.29:299][840]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.03.24-19.42.30:326][840]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.03.24-19.42.30:327][840]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14376
+[2020.03.24-19.42.32:716][840]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2020.03.24-19.42.32:716][840]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.03.24-19.42.32:716][840]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.03.24-19.42.32:716][840]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.03.24-19.42.32:716][840]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.03.24-19.42.32:716][840]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.03.24-19.42.32:833][840]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2020.03.24-19.42.32:833][840]MapCheck: New page: Main - 24 Mar 2020 19:42:32
+[2020.03.24-19.42.32:929][840]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2020.03.24-19.42.33:009][840]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 175.527ms to complete.
+[2020.03.24-19.42.33:032][840]LogEditorBuildUtils: Build time 0:05
+[2020.03.24-19.42.33:577][843]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.03.24-19.42.36:962][852]Job is a success!
+[2020.03.24-19.42.37:474][853]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.054s
+[2020.03.24-19.42.37:474][853]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2020.03.24-19.42.37:474][853]LogVolumetricLightmapImport:      BrickData 530x5x5 = 0.5Mb
+[2020.03.24-19.42.37:474][853]LogVolumetricLightmapImport:      Bricks at Level
+[2020.03.24-19.42.37:474][853]LogVolumetricLightmapImport:          0: 7.5% covering 100.0% of volume
+[2020.03.24-19.42.37:474][853]LogVolumetricLightmapImport:          1: 92.5% covering 19.1% of volume
+[2020.03.24-19.42.37:474][853]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2020.03.24-19.42.37:586][853]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2020.03.24-19.42.37:586][853]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2020.03.24-19.42.37:586][853]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2020.03.24-19.42.37:586][853]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2020.03.24-19.42.37:586][853]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2020.03.24-19.42.37:586][853]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 128X128)
+[2020.03.24-19.42.37:614][853]Lightmass on VERONICAMCHUMPI: 3.15 sec total, 109 ms importing, 23 ms setup, 887 ms photons, 2.07 sec processing, 0 ms extra exporting [2/2 mappings]. Threads: 14.2 sec total, 246 ms processing.
+[2020.03.24-19.42.37:616][853]LogStaticLightingSystem: Main_BuiltData storing lightmap data for 2 meshes in 2 LightmapResourceClusters (1.0 Meshes per cluster).
+[2020.03.24-19.42.37:637][853]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2020.03.24-19.42.37:644][853]LogStaticLightingSystem: Illumination: 8.54 sec (46 ms encoding lightmaps, 20 ms encoding shadowmaps)
+[2020.03.24-19.42.37:645][853]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2020.03.24-19.42.37:645][853]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2020.03.24-19.42.37:721][853]DumpUnbuiltLightIteractions
+[2020.03.24-19.42.37:721][853]Lights with unbuilt interactions: 0
+[2020.03.24-19.42.37:721][853]
+[2020.03.24-19.42.37:721][853]Primitives with unbuilt interactions: 0
+[2020.03.24-19.42.37:771][854]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.03.24-19.42.37:771][854]MapCheck: New page: Main - 24 Mar 2020 19:42:37
+[2020.03.24-19.42.37:771][854]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.232ms to complete.
+[2020.03.24-19.42.47:161][882]LogSlate: Window 'Message Log' being destroyed
+[2020.03.24-19.42.47:165][882]LogSlate: Window 'Message Log' being destroyed
+[2020.03.24-19.42.55:100][824]LogBlueprintActionDatabase: Requesting refresh due to module change: ExternalImagePicker (loaded)
+[2020.03.24-19.42.56:280][824]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.03.24-19.43.34:503][349]LogHttp: Warning: 00000228477160C0: request has been successfully processed. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1E481EB4-416B-7CCB-F5AE-C6A5562087AE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=b1d70938408be286c03a8c81d4460e94%7Ca5ba9538cc5b43ea89bf4c6e7e5146b8%7Cb324a9c8-163c-48f6-a5e0-447ae1cab626&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 502, content length: 138, actual payload size: 138
+[2020.03.24-19.43.34:503][349]LogHttp: Warning: 00000228477160C0 Response Header Server: awselb/2.0
+[2020.03.24-19.43.34:503][349]LogHttp: Warning: 00000228477160C0 Response Header Date: Tue, 24 Mar 2020 19:43:32 GMT
+[2020.03.24-19.43.34:503][349]LogHttp: Warning: 00000228477160C0 Response Header Content-Type: text/html
+[2020.03.24-19.43.34:503][349]LogHttp: Warning: 00000228477160C0 Response Header Content-Length: 138
+[2020.03.24-19.43.34:503][349]LogHttp: Warning: 00000228477160C0 Response Header Connection: keep-alive
+[2020.03.24-19.43.43:226][392]LogSlate: Window 'Project Settings' being destroyed
+[2020.03.24-19.43.43:229][392]LogSlate: Window 'Project Settings' being destroyed
+[2020.03.24-19.44.17:864][577]Candidate modules for hot reload:
+[2020.03.24-19.44.17:864][577]  KillEmDed
+[2020.03.24-19.44.17:864][577]Launching UnrealBuildTool... [D:/Program Files/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=KillEmDed,813 Win64 Development -TargetType=Editor -Project="D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/KillEmDed.uproject" "D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/KillEmDed.uproject"  -IgnoreJunk]
+[2020.03.24-19.44.17:869][577]Warning: Starting HotReload took  0.0s.
+[2020.03.24-19.44.21:593][933]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.03.24-19.44.28:425][741]CompilerResultsLog: New page: Compilation - 24 Mar 2020 19:44:28
+[2020.03.24-19.44.28:425][741]CompilerResultsLog: WARNING: Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
+[2020.03.24-19.44.28:425][741]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\VeronicaMcHumpinSlut\Documents\KillEmDed).
+[2020.03.24-19.44.28:425][741]CompilerResultsLog: Creating makefile for KillEmDedEditor (ini files are newer than makefile)
+[2020.03.24-19.44.28:425][741]CompilerResultsLog: Parsing headers for KillEmDedEditor
+[2020.03.24-19.44.28:425][741]CompilerResultsLog:   Running UnrealHeaderTool "D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\KillEmDed.uproject" "D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\KillEmDedEditor\Development\KillEmDedEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.03.24-19.44.28:425][741]CompilerResultsLog: Reflection code generated for KillEmDedEditor in 5.8803403 seconds
+[2020.03.24-19.44.28:425][741]CompilerResultsLog: Using Visual Studio 2019 14.25.28610 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.24-19.44.28:425][741]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.03.24-19.44.28:425][741]CompilerResultsLog:   [1/4] Avatar.cpp
+[2020.03.24-19.44.28:425][741]CompilerResultsLog:   D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Source\KillEmDed\Avatar.cpp(35): warning C4458: declaration of 'InputComponent' hides class member
+[2020.03.24-19.44.28:425][741]CompilerResultsLog:   D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(474): note: see declaration of 'AActor::InputComponent'
+[2020.03.24-19.44.28:425][741]CompilerResultsLog:   [2/4] UE4Editor-KillEmDed-0813.lib
+[2020.03.24-19.44.28:425][741]CompilerResultsLog:      Creating library D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\UE4Editor-KillEmDed-0813.lib and object D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\UE4Editor-KillEmDed-0813.exp
+[2020.03.24-19.44.28:425][741]CompilerResultsLog:   [3/4] UE4Editor-KillEmDed-0813.dll
+[2020.03.24-19.44.28:425][741]CompilerResultsLog:      Creating library D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\UE4Editor-KillEmDed-0813.suppressed.lib and object D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\UE4Editor-KillEmDed-0813.suppressed.exp
+[2020.03.24-19.44.28:425][741]CompilerResultsLog:   [4/4] KillEmDedEditor.target
+[2020.03.24-19.44.28:425][741]CompilerResultsLog: Total time in Parallel executor: 2.80 seconds
+[2020.03.24-19.44.28:425][741]CompilerResultsLog: Total execution time: 10.48 seconds
+[2020.03.24-19.44.28:425][741]LogMainFrame: MainFrame: Module compiling took 10.564 seconds
+[2020.03.24-19.44.28:475][741]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2020.03.24-19.44.28:475][741]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.03.24-19.44.28:487][741]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2744 classes and 663 folders.
+[2020.03.24-19.44.28:487][741]Display: HotReload took 10.6s.
+[2020.03.24-19.44.29:619][853]LogSlate: Window 'Project Settings' being destroyed
+[2020.03.24-19.44.29:623][853]LogSlate: Window 'Project Settings' being destroyed
+[2020.03.24-19.44.33:870][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.03.24-19.44.33:955][352]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.03.24-19.44.34:097][352]LogSavePackage: Moving '../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/MainDC8C37B54ED5A25280BD338DCDDCD293.tmp' to '../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/Maps/Main.umap'
+[2020.03.24-19.44.34:124][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2020.03.24-19.44.34:145][352]LogSavePackage: Moving '../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Saved/Main_BuiltData734F84C54560A3ADC1F93A9276BE3998.tmp' to '../../../../../VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/Content/Maps/Main_BuiltData.uasset'
+[2020.03.24-19.44.36:409][622]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.24-19.44.36:433][622]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2020.03.24-19.44.36:433][622]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.24-19.44.36:433][622]PIE: New page: PIE session: Main (24 Mar 2020 19:44:36)
+[2020.03.24-19.44.36:445][622]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.03.24-19.44.36:448][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003037s)
+[2020.03.24-19.44.36:448][622]LogAIModule: Creating AISystem for world Main
+[2020.03.24-19.44.36:449][622]LogPlayLevel: PIE: World Init took: (0.000614s)
+[2020.03.24-19.44.36:449][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003865s)
+[2020.03.24-19.44.36:484][622]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.03.24-19.44.36:513][622]LogInit: XAudio2 using 'C49HG9x (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.24-19.44.36:523][622]LogInit: FAudioDevice initialized.
+[2020.03.24-19.44.36:579][622]LogLoad: Game class is 'MyKillEmDedGameModeBase_C'
+[2020.03.24-19.44.36:581][622]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.03.24-19.44.36
+[2020.03.24-19.44.36:581][622]LogTemp: Warning: InProximity
+[2020.03.24-19.44.36:582][622]LogWorld: Bringing up level for play took: 0.001355
+[2020.03.24-19.44.36:614][622]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2020.03.24-19.44.36:615][622]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2020.03.24-19.44.36:615][622]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.03.24-19.44.36:616][622]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main -0.544
+[2020.03.24-19.44.36:616][622]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2020.03.24-19.44.53:244][591]LogTemp: Warning: InProximity
+[2020.03.24-19.45.10:345][643]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2020.03.24-19.45.10:346][643]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.24-19.45.10:376][643]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.24-19.45.10:377][643]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2020.03.24-19.45.10:406][643]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.24-19.45.10:442][643]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2020.03.24-19.45.10:457][644]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.03.24-19.47.13:869][898]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.24-19.47.13:971][902]Candidate modules for hot reload:
+[2020.03.24-19.47.13:971][902]  KillEmDed
+[2020.03.24-19.47.13:971][902]Launching UnrealBuildTool... [D:/Program Files/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=KillEmDed,9170 Win64 Development -TargetType=Editor -Project="D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/KillEmDed.uproject" "D:/VeronicaMcHumpinSlut/Documents/KillEmDed/KillEmDed/KillEmDed.uproject"  -IgnoreJunk]
+[2020.03.24-19.47.13:976][902]Warning: Starting HotReload took  0.0s.
+[2020.03.24-19.47.24:702][182]CompilerResultsLog: New page: Compilation - 24 Mar 2020 19:47:24
+[2020.03.24-19.47.24:703][182]CompilerResultsLog: WARNING: Trying to build an enterprise target but the enterprise directory is missing. Falling back on engine components only.
+[2020.03.24-19.47.24:703][182]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\VeronicaMcHumpinSlut\Documents\KillEmDed).
+[2020.03.24-19.47.24:703][182]CompilerResultsLog: Creating makefile for KillEmDedEditor (ini files are newer than makefile)
+[2020.03.24-19.47.24:703][182]CompilerResultsLog: Parsing headers for KillEmDedEditor
+[2020.03.24-19.47.24:703][182]CompilerResultsLog:   Running UnrealHeaderTool "D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\KillEmDed.uproject" "D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\KillEmDedEditor\Development\KillEmDedEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.03.24-19.47.24:703][182]CompilerResultsLog: Reflection code generated for KillEmDedEditor in 5.8682339 seconds
+[2020.03.24-19.47.24:703][182]CompilerResultsLog: Using Visual Studio 2019 14.25.28610 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.24-19.47.24:703][182]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.03.24-19.47.24:703][182]CompilerResultsLog:   [1/4] Avatar.cpp
+[2020.03.24-19.47.24:703][182]CompilerResultsLog:   D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Source\KillEmDed\Avatar.cpp(35): warning C4458: declaration of 'InputComponent' hides class member
+[2020.03.24-19.47.24:703][182]CompilerResultsLog:   D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(474): note: see declaration of 'AActor::InputComponent'
+[2020.03.24-19.47.24:703][182]CompilerResultsLog:   [2/4] UE4Editor-KillEmDed-9170.lib
+[2020.03.24-19.47.24:703][182]CompilerResultsLog:      Creating library D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\UE4Editor-KillEmDed-9170.lib and object D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\UE4Editor-KillEmDed-9170.exp
+[2020.03.24-19.47.24:703][182]CompilerResultsLog:   [3/4] UE4Editor-KillEmDed-9170.dll
+[2020.03.24-19.47.24:703][182]CompilerResultsLog:      Creating library D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\UE4Editor-KillEmDed-9170.suppressed.lib and object D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Development\KillEmDed\UE4Editor-KillEmDed-9170.suppressed.exp
+[2020.03.24-19.47.24:703][182]CompilerResultsLog:   [4/4] KillEmDedEditor.target
+[2020.03.24-19.47.24:703][182]CompilerResultsLog: Total time in Parallel executor: 2.95 seconds
+[2020.03.24-19.47.24:703][182]CompilerResultsLog: Total execution time: 10.65 seconds
+[2020.03.24-19.47.24:703][182]LogMainFrame: MainFrame: Module compiling took 10.734 seconds
+[2020.03.24-19.47.24:737][182]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2020.03.24-19.47.24:737][182]LogBlueprintActionDatabase: Requesting refresh due to module change: KillEmDed (unloaded)
+[2020.03.24-19.47.24:764][182]LogClass: ItemType HotReload.
+[2020.03.24-19.47.24:773][182]LogBlueprintActionDatabase: Requesting refresh due to module change: KillEmDed (loaded)
+[2020.03.24-19.47.24:773][182]LogContentBrowser: Native class hierarchy updated for 'KillEmDed' in 0.0004 seconds. Added 11 classes and 2 folders.
+[2020.03.24-19.47.24:776][182]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2020.03.24-19.47.24:827][182]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.03.24-19.47.24:827][182]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.03.24-19.47.24:839][182]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2744 classes and 663 folders.
+[2020.03.24-19.47.24:839][182]Display: HotReload took 10.9s.
+[2020.03.24-19.47.35:377][422]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.24-19.47.35:395][422]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2020.03.24-19.47.35:395][422]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.24-19.47.35:395][422]PIE: New page: PIE session: Main (24 Mar 2020 19:47:35)
+[2020.03.24-19.47.35:395][422]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.03.24-19.47.35:397][422]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002070s)
+[2020.03.24-19.47.35:397][422]LogAIModule: Creating AISystem for world Main
+[2020.03.24-19.47.35:397][422]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2020.03.24-19.47.35:397][422]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002709s)
+[2020.03.24-19.47.35:448][422]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2020.03.24-19.47.35:478][422]LogInit: XAudio2 using 'C49HG9x (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.24-19.47.35:488][422]LogInit: FAudioDevice initialized.
+[2020.03.24-19.47.35:514][422]LogLoad: Game class is 'MyKillEmDedGameModeBase_C'
+[2020.03.24-19.47.35:516][422]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.03.24-19.47.35
+[2020.03.24-19.47.35:516][422]LogTemp: Warning: InProximity
+[2020.03.24-19.47.35:516][422]LogWorld: Bringing up level for play took: 0.001326
+[2020.03.24-19.47.35:529][422]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.368
+[2020.03.24-19.47.35:529][422]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2020.03.24-19.47.44:285][470]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.03.24-19.47.44:285][470]LogWindows: Windows GetLastError: The operation completed successfully. (0)

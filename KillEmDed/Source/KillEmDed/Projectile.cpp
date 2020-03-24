@@ -13,8 +13,8 @@ AProjectile::AProjectile(const class FObjectInitializer& PCIP)
 	RootComponent = ProxSphere;
 	ProxSphere->OnComponentBeginOverlap.AddDynamic(this, &AProjectile::Prox);
 
-	Mesh = PCIP.CreateDefaultSubobject<UStaticMeshComponent>(this, TEXT("Mesh"));
-	Mesh->SetupAttachment(ProxSphere);
+	Particle = PCIP.CreateDefaultSubobject<UParticleSystemComponent>(this, TEXT("Particle"));
+	Particle->SetupAttachment(ProxSphere);
 
 	Damage = 1;
 }

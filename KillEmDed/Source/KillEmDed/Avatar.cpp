@@ -20,7 +20,7 @@ AAvatar::AAvatar()
 void AAvatar::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 }
 
 // Called every frame
@@ -42,6 +42,7 @@ void AAvatar::SetupPlayerInputComponent(class UInputComponent* InputComponent)
 	InputComponent->BindAxis("Pitch", this, &AAvatar::Pitch);
 	InputComponent->BindAction("Inventory", IE_Pressed, this, &AAvatar::ToggleInventory);
 	InputComponent->BindAction("MouseClickedLMB", IE_Pressed, this, &AAvatar::MouseClicked);
+	InputComponent->BindAction("WeaponToggle", IE_Pressed, this, &AAvatar::ToggleWeapon);
 }
 
 void AAvatar::MoveForward(float amount)
@@ -87,10 +88,22 @@ void AAvatar::Pitch(float amount)
 }
 
 void AAvatar::Pickup(APickupItem* item) {
-	if (Backpack.Contains(item->Name)) Backpack[item->Name] += item->Quantity;
-	else {
-		Backpack.Add(item->Name, item->Quantity);
-		Icons.Add(item->Name, item->Icon);
+
+	switch (item->itemType)
+	{
+	case ItemType::projectile:
+		if (weapons.Contains(item->BPItem)) break;
+		else {
+			weapons.Add(item->BPItem);
+			Icons.Add(item->Name, item->Icon);
+		}
+			break;
+	case ItemType::health:
+		Hp += item->Quantity;
+		if (Hp > MaxHp) Hp = MaxHp;
+			break;
+	default:
+		break;
 	}
 }
 
@@ -99,24 +112,36 @@ void AAvatar::ToggleInventory() {
 	APlayerController* PController = GetWorld()->GetFirstPlayerController();
 	AplayerHud* hud = Cast<AplayerHud>(PController->GetHUD());
 
-	if (inventoryShowing) {
-		hud->clearWidgets();
-		inventoryShowing = false;
-		PController->bShowMouseCursor = false;
-		return;
+	//if (inventoryShowing) {
+	//	hud->clearWidgets();
+	//	inventoryShowing = false;
+	//	PController->bShowMouseCursor = false;
+	//	return;
+	//}
+	//else {
+	//	inventoryShowing = true;
+	//	PController->bShowMouseCursor = true;
+	//	for (TMap<FString, int>::TIterator it = Backpack.CreateIterator(); it; ++it) {
+	//		FString fs = it->Key + FString::Printf(TEXT("x%d"), it->Value);
+	//		UTexture2D* tex = NULL;
+	//		if (Icons.Find(it->Key)) {
+	//			tex = Icons[it->Key];
+	//			Widget w(Icon(fs, tex), fs);
+	//			hud->addWidget(w);
+	//		}
+	//	}
+	//}
+}
+
+void AAvatar::ToggleWeapon()
+{
+	if (weaponSelect >= weapons.Num() - 1 || weapons.Num() == 0) {
+		weaponSelect = 0;
+		GEngine->AddOnScreenDebugMessage(0, 5.0f, FColor::Yellow, "Player: Reset weapon");
 	}
 	else {
-		inventoryShowing = true;
-		PController->bShowMouseCursor = true;
-		for (TMap<FString, int>::TIterator it = Backpack.CreateIterator(); it; ++it) {
-			FString fs = it->Key + FString::Printf(TEXT("x%d"), it->Value);
-			UTexture2D* tex = NULL;
-			if (Icons.Find(it->Key)) {
-				tex = Icons[it->Key];
-				Widget w(Icon(fs, tex), fs);
-				hud->addWidget(w);
-			}
-		}
+		weaponSelect++;
+		GEngine->AddOnScreenDebugMessage(0, 5.0f, FColor::Yellow, "Player: Next weapon");
 	}
 }
 
@@ -127,18 +152,20 @@ void AAvatar::MouseClicked() {
 		hud->MouseClicked();
 	}
 	else {
-		if (BPBullet) {
+		if (weapons.Num() != 0) {
 			FVector fwd = GetActorForwardVector();
 			FVector nozzle = GetMesh()->GetBoneLocation("index_03_l");
 
 			nozzle += fwd * BulletSpawnDistance;
 
-			AProjectile* bullet = GetWorld()->SpawnActor<AProjectile>(BPBullet, nozzle, RootComponent->GetComponentRotation());
+
+			AProjectile* bullet = GetWorld()->SpawnActor<AProjectile>(weapons[weaponSelect], nozzle, RootComponent->GetComponentRotation());
 
 			if (bullet) {
 				bullet->Firer = this;
 				bullet->ProxSphere->AddImpulse(fwd * BulletLaunchImpulse);
 			}
+
 		}
 	}
 }
