@@ -41,3 +41,10 @@ D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Root
 D:\Program Files\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 D:\Program Files\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Inc\KillEmDed\Avatar.generated.h
+D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Source\KillEmDed\playerHud.h
+D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+D:\Program Files\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+D:\Program Files\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Inc\KillEmDed\playerHud.generated.h

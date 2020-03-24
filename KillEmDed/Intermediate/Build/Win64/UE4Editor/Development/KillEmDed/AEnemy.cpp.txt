@@ -43,3 +43,5 @@ D:\Program Files\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Ro
 D:\Program Files\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Inc\KillEmDed\Avatar.generated.h
 D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Inc\KillEmDed\AEnemy.generated.h
+D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Source\KillEmDed\Projectile.h
+D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Inc\KillEmDed\Projectile.generated.h

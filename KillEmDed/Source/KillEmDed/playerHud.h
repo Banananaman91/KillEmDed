@@ -27,6 +27,35 @@ struct Message {
 	}
 };
 
+struct Icon {
+	FString name; UTexture2D* tex;
+
+	Icon() { name = "UNKNOWN ICON"; tex = 0; }
+
+	Icon(FString& iName, UTexture2D* iTex) {
+		name = iName;
+		tex = iTex;
+	}
+};
+
+struct Widget {
+	Icon icon;
+	FString Name;
+	FVector2D pos, size;
+
+	Widget(Icon iicon, FString iName) {
+		icon = iicon;
+		Name = iName;
+	}
+
+	float left() { return pos.X; }
+	float right() { return pos.X + size.X; }
+	float top() { return pos.Y; }
+	float bottom() { return pos.Y + size.Y; }
+
+	bool hit(FVector2D v) { return v.X > left() && v.X < right() && v.Y > top() && v.Y < bottom(); }
+};
+
 UCLASS()
 class KILLEMDED_API AplayerHud : public AHUD
 {
@@ -66,4 +95,20 @@ public:
 	void DrawMessages();
 
 	void DrawHealthBar();
+
+	void DrawWidgets();
+
+	FVector2D dims;
+
+	TArray<Widget> widgets;
+
+	void addWidget(Widget widget);
+
+	void clearWidgets();
+
+	void MouseClicked();
+
+	void MouseMoved();
+
+	Widget* heldWidget;
 };

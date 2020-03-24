@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define KILLEMDED_playerHud_generated_h
 
-#define KillEmDed_Source_KillEmDed_playerHud_h_33_RPC_WRAPPERS
-#define KillEmDed_Source_KillEmDed_playerHud_h_33_RPC_WRAPPERS_NO_PURE_DECLS
-#define KillEmDed_Source_KillEmDed_playerHud_h_33_INCLASS_NO_PURE_DECLS \
+#define KillEmDed_Source_KillEmDed_playerHud_h_62_RPC_WRAPPERS
+#define KillEmDed_Source_KillEmDed_playerHud_h_62_RPC_WRAPPERS_NO_PURE_DECLS
+#define KillEmDed_Source_KillEmDed_playerHud_h_62_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAplayerHud(); \
 	friend struct Z_Construct_UClass_AplayerHud_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(AplayerHud)
 
 
-#define KillEmDed_Source_KillEmDed_playerHud_h_33_INCLASS \
+#define KillEmDed_Source_KillEmDed_playerHud_h_62_INCLASS \
 private: \
 	static void StaticRegisterNativesAplayerHud(); \
 	friend struct Z_Construct_UClass_AplayerHud_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(AplayerHud)
 
 
-#define KillEmDed_Source_KillEmDed_playerHud_h_33_STANDARD_CONSTRUCTORS \
+#define KillEmDed_Source_KillEmDed_playerHud_h_62_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AplayerHud(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AplayerHud) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define KillEmDed_Source_KillEmDed_playerHud_h_33_ENHANCED_CONSTRUCTORS \
+#define KillEmDed_Source_KillEmDed_playerHud_h_62_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AplayerHud(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -59,26 +59,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AplayerHud); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AplayerHud)
 
 
-#define KillEmDed_Source_KillEmDed_playerHud_h_33_PRIVATE_PROPERTY_OFFSET
-#define KillEmDed_Source_KillEmDed_playerHud_h_30_PROLOG
-#define KillEmDed_Source_KillEmDed_playerHud_h_33_GENERATED_BODY_LEGACY \
+#define KillEmDed_Source_KillEmDed_playerHud_h_62_PRIVATE_PROPERTY_OFFSET
+#define KillEmDed_Source_KillEmDed_playerHud_h_59_PROLOG
+#define KillEmDed_Source_KillEmDed_playerHud_h_62_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	KillEmDed_Source_KillEmDed_playerHud_h_33_PRIVATE_PROPERTY_OFFSET \
-	KillEmDed_Source_KillEmDed_playerHud_h_33_RPC_WRAPPERS \
-	KillEmDed_Source_KillEmDed_playerHud_h_33_INCLASS \
-	KillEmDed_Source_KillEmDed_playerHud_h_33_STANDARD_CONSTRUCTORS \
+	KillEmDed_Source_KillEmDed_playerHud_h_62_PRIVATE_PROPERTY_OFFSET \
+	KillEmDed_Source_KillEmDed_playerHud_h_62_RPC_WRAPPERS \
+	KillEmDed_Source_KillEmDed_playerHud_h_62_INCLASS \
+	KillEmDed_Source_KillEmDed_playerHud_h_62_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define KillEmDed_Source_KillEmDed_playerHud_h_33_GENERATED_BODY \
+#define KillEmDed_Source_KillEmDed_playerHud_h_62_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	KillEmDed_Source_KillEmDed_playerHud_h_33_PRIVATE_PROPERTY_OFFSET \
-	KillEmDed_Source_KillEmDed_playerHud_h_33_RPC_WRAPPERS_NO_PURE_DECLS \
-	KillEmDed_Source_KillEmDed_playerHud_h_33_INCLASS_NO_PURE_DECLS \
-	KillEmDed_Source_KillEmDed_playerHud_h_33_ENHANCED_CONSTRUCTORS \
+	KillEmDed_Source_KillEmDed_playerHud_h_62_PRIVATE_PROPERTY_OFFSET \
+	KillEmDed_Source_KillEmDed_playerHud_h_62_RPC_WRAPPERS_NO_PURE_DECLS \
+	KillEmDed_Source_KillEmDed_playerHud_h_62_INCLASS_NO_PURE_DECLS \
+	KillEmDed_Source_KillEmDed_playerHud_h_62_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

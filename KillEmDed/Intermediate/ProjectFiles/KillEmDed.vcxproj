@@ -364,6 +364,8 @@
     <NMakeOutput>..\..\Binaries\HTML5\KillEmDed-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\KillEmDed\Projectile.cpp" />
+    <ClInclude Include="..\..\Source\KillEmDed\Projectile.h" />
     <None Include="..\..\KillEmDed.uproject" />
     <None Include="..\..\Source\KillEmDed.Target.cs" />
     <None Include="..\..\Source\KillEmDedEditor.Target.cs" />

@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "UObject/Class.h"
 #include "Containers/Map.h"
 #include "Components/SphereComponent.h"
 #include "Components/StaticMeshComponent.h"

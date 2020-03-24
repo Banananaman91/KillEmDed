@@ -50,6 +50,15 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Collision)
 		USphereComponent* AttackRangeSphere;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = EnemyProperties)
+		UClass* BPBullet;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = EnemyProperties)
+		float BulletLaunchImpulse;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = EnemyProperties)
+		float BulletSpawnDistance;
+
 	bool isInAttackRange(float d) { return d < AttackRangeSphere->GetScaledSphereRadius(); }
 
 	bool isInSightRange(float d) { return d < SightSphere->GetScaledSphereRadius(); }
@@ -61,5 +70,7 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	void TrackPlayer(float DeltaTime);
+
+	void Attack(AActor* thing);
 
 };

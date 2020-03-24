@@ -17,9 +17,9 @@ void EmptyLinkFunctionForGeneratedCodeAEnemy() {}
 	KILLEMDED_API UClass* Z_Construct_UClass_AAEnemy();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_KillEmDed();
-	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 // End Cross Module References
 	void AAEnemy::StaticRegisterNativesAAEnemy()
 	{
@@ -34,6 +34,18 @@ void EmptyLinkFunctionForGeneratedCodeAEnemy() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BulletSpawnDistance_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BulletSpawnDistance;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BulletLaunchImpulse_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BulletLaunchImpulse;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BPBullet_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_BPBullet;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AttackRangeSphere_MetaData[];
 #endif
@@ -86,6 +98,27 @@ void EmptyLinkFunctionForGeneratedCodeAEnemy() {}
 		{ "ObjectInitializerConstructorDeclared", "" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAEnemy_Statics::NewProp_BulletSpawnDistance_MetaData[] = {
+		{ "Category", "EnemyProperties" },
+		{ "ModuleRelativePath", "AEnemy.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAEnemy_Statics::NewProp_BulletSpawnDistance = { "BulletSpawnDistance", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAEnemy, BulletSpawnDistance), METADATA_PARAMS(Z_Construct_UClass_AAEnemy_Statics::NewProp_BulletSpawnDistance_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAEnemy_Statics::NewProp_BulletSpawnDistance_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAEnemy_Statics::NewProp_BulletLaunchImpulse_MetaData[] = {
+		{ "Category", "EnemyProperties" },
+		{ "ModuleRelativePath", "AEnemy.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAEnemy_Statics::NewProp_BulletLaunchImpulse = { "BulletLaunchImpulse", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAEnemy, BulletLaunchImpulse), METADATA_PARAMS(Z_Construct_UClass_AAEnemy_Statics::NewProp_BulletLaunchImpulse_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAEnemy_Statics::NewProp_BulletLaunchImpulse_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAEnemy_Statics::NewProp_BPBullet_MetaData[] = {
+		{ "Category", "EnemyProperties" },
+		{ "ModuleRelativePath", "AEnemy.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AAEnemy_Statics::NewProp_BPBullet = { "BPBullet", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAEnemy, BPBullet), Z_Construct_UClass_UObject_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AAEnemy_Statics::NewProp_BPBullet_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAEnemy_Statics::NewProp_BPBullet_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAEnemy_Statics::NewProp_AttackRangeSphere_MetaData[] = {
 		{ "Category", "Collision" },
@@ -152,6 +185,9 @@ void EmptyLinkFunctionForGeneratedCodeAEnemy() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAEnemy_Statics::NewProp_speed = { "speed", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAEnemy, speed), METADATA_PARAMS(Z_Construct_UClass_AAEnemy_Statics::NewProp_speed_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAEnemy_Statics::NewProp_speed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAEnemy_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAEnemy_Statics::NewProp_BulletSpawnDistance,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAEnemy_Statics::NewProp_BulletLaunchImpulse,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAEnemy_Statics::NewProp_BPBullet,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAEnemy_Statics::NewProp_AttackRangeSphere,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAEnemy_Statics::NewProp_SightSphere,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAEnemy_Statics::NewProp_TimeSinceLastStrike,
@@ -189,7 +225,7 @@ void EmptyLinkFunctionForGeneratedCodeAEnemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAEnemy, 2605821818);
+	IMPLEMENT_CLASS(AAEnemy, 3483430736);
 	template<> KILLEMDED_API UClass* StaticClass<AAEnemy>()
 	{
 		return AAEnemy::StaticClass();

@@ -2,6 +2,7 @@
 
 
 #include "AEnemy.h"
+#include "Projectile.h"
 
 // Sets default values
 AAEnemy::AAEnemy(const FObjectInitializer& PCIP) : Super(PCIP)
@@ -62,5 +63,38 @@ void AAEnemy::TrackPlayer(float DeltaTime)
 	FRotator toPlayerRotation = toPlayer.Rotation();
 	toPlayerRotation.Pitch = 0;
 	RootComponent->SetWorldRotation(toPlayerRotation);
+
+	if (isInAttackRange(distanceToPlayer)) {
+		if (!TimeSinceLastStrike) Attack(avatar);
+		
+		TimeSinceLastStrike += DeltaTime;
+
+		if (TimeSinceLastStrike > AttackTimeout) TimeSinceLastStrike = 0;
+
+		return;
+	}
+}
+
+void AAEnemy::Attack(AActor* thing) {
+	if (BPBullet) {
+		FVector fwd = GetActorForwardVector();
+		FVector nozzle = GetMesh()->GetBoneLocation("index_03_l");
+
+		nozzle += fwd * BulletSpawnDistance;
+
+		FVector toOpponent = thing->GetActorLocation() - nozzle;
+		toOpponent.Normalize();
+
+		AProjectile* bullet = GetWorld()->SpawnActor<AProjectile>(BPBullet, nozzle, RootComponent->GetComponentRotation());
+
+		if (bullet) {
+			bullet->Firer = this;
+			bullet->ProxSphere->AddImpulse(fwd * BulletLaunchImpulse);
+			GEngine->AddOnScreenDebugMessage(0, 5.0f, FColor::Yellow, "Enemy: Bullet Spawned");
+		}
+		else {
+			GEngine->AddOnScreenDebugMessage(0, 5.0f, FColor::Yellow, "Enemy: No bullet actor could be spawned. Is the bullet overlapping?");
+		}
+	}
 }
 

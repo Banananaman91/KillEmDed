@@ -2,6 +2,7 @@
 
 
 #include "Avatar.h"
+#include "playerHud.h"
 #include "Components/InputComponent.h"
 #include "Engine/World.h"
 
@@ -38,6 +39,7 @@ void AAvatar::SetupPlayerInputComponent(class UInputComponent* InputComponent)
 	InputComponent->BindAxis("Yaw", this, &AAvatar::Yaw);
 	InputComponent->BindAxis("Pitch", this, &AAvatar::Pitch);
 	InputComponent->BindAction("Inventory", IE_Pressed, this, &AAvatar::ToggleInventory);
+	InputComponent->BindAction("MouseClickedLMB", IE_Pressed, this, &AAvatar::MouseClicked);
 }
 
 void AAvatar::MoveForward(float amount)
@@ -62,13 +64,23 @@ void AAvatar::MoveRight(float amount)
 
 void AAvatar::Yaw(float amount)
 {
-	if (inventoryShowing) return;
+	if (inventoryShowing) {
+		APlayerController* PController = GetWorld()->GetFirstPlayerController();
+		AplayerHud* hud = Cast<AplayerHud>(PController->GetHUD());
+		hud->MouseMoved();
+		return;
+	}
 	AddControllerYawInput(200.f * amount * GetWorld()->GetDeltaSeconds());
 }
 
 void AAvatar::Pitch(float amount)
 {
-	if (inventoryShowing) return;
+	if (inventoryShowing) {
+		APlayerController* PController = GetWorld()->GetFirstPlayerController();
+		AplayerHud* hud = Cast<AplayerHud>(PController->GetHUD());
+		hud->MouseMoved();
+		return;
+	}
 	AddControllerPitchInput(200.f * amount * GetWorld()->GetDeltaSeconds());
 }
 
@@ -81,12 +93,36 @@ void AAvatar::Pickup(APickupItem* item) {
 }
 
 void AAvatar::ToggleInventory() {
-	if (inventoryShowing) inventoryShowing = false;
+
+	APlayerController* PController = GetWorld()->GetFirstPlayerController();
+	AplayerHud* hud = Cast<AplayerHud>(PController->GetHUD());
+
+	if (inventoryShowing) {
+		hud->clearWidgets();
+		inventoryShowing = false;
+		PController->bShowMouseCursor = false;
+		return;
+	}
 	else {
 		inventoryShowing = true;
-		if (GEngine) {
-			GEngine->AddOnScreenDebugMessage(0, 5.0f, FColor::Red, "Displaying Inventory");
+		PController->bShowMouseCursor = true;
+		for (TMap<FString, int>::TIterator it = Backpack.CreateIterator(); it; ++it) {
+			FString fs = it->Key + FString::Printf(TEXT("x%d"), it->Value);
+			UTexture2D* tex = NULL;
+			if (Icons.Find(it->Key)) {
+				tex = Icons[it->Key];
+				Widget w(Icon(fs, tex), fs);
+				hud->addWidget(w);
+			}
 		}
+	}
+}
+
+void AAvatar::MouseClicked() {
+	if (inventoryShowing) {
+		APlayerController* PController = GetWorld()->GetFirstPlayerController();
+		AplayerHud* hud = Cast<AplayerHud>(PController->GetHUD());
+		hud->MouseClicked();
 	}
 }
 

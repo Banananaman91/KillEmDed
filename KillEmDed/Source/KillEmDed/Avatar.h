@@ -50,4 +50,6 @@ public:
 
 	void ToggleInventory();
 
+	void MouseClicked();
+
 };
