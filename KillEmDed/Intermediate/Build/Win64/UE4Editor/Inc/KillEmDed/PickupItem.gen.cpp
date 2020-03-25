@@ -205,6 +205,14 @@ void EmptyLinkFunctionForGeneratedCodePickupItem() {}
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_BPItem;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_UpgradeCost_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_UpgradeCost;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FireRate_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_FireRate;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_itemType_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_itemType;
@@ -274,6 +282,20 @@ void EmptyLinkFunctionForGeneratedCodePickupItem() {}
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_APickupItem_Statics::NewProp_BPItem = { "BPItem", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickupItem, BPItem), Z_Construct_UClass_UObject_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_APickupItem_Statics::NewProp_BPItem_MetaData, ARRAY_COUNT(Z_Construct_UClass_APickupItem_Statics::NewProp_BPItem_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickupItem_Statics::NewProp_UpgradeCost_MetaData[] = {
+		{ "Category", "Item" },
+		{ "ModuleRelativePath", "PickupItem.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_APickupItem_Statics::NewProp_UpgradeCost = { "UpgradeCost", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickupItem, UpgradeCost), METADATA_PARAMS(Z_Construct_UClass_APickupItem_Statics::NewProp_UpgradeCost_MetaData, ARRAY_COUNT(Z_Construct_UClass_APickupItem_Statics::NewProp_UpgradeCost_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickupItem_Statics::NewProp_FireRate_MetaData[] = {
+		{ "Category", "Item" },
+		{ "ModuleRelativePath", "PickupItem.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APickupItem_Statics::NewProp_FireRate = { "FireRate", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickupItem, FireRate), METADATA_PARAMS(Z_Construct_UClass_APickupItem_Statics::NewProp_FireRate_MetaData, ARRAY_COUNT(Z_Construct_UClass_APickupItem_Statics::NewProp_FireRate_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickupItem_Statics::NewProp_itemType_MetaData[] = {
 		{ "Category", "Item" },
 		{ "ModuleRelativePath", "PickupItem.h" },
@@ -301,6 +323,8 @@ void EmptyLinkFunctionForGeneratedCodePickupItem() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickupItem_Statics::NewProp_Particle,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickupItem_Statics::NewProp_ProxSphere,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickupItem_Statics::NewProp_BPItem,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickupItem_Statics::NewProp_UpgradeCost,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickupItem_Statics::NewProp_FireRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickupItem_Statics::NewProp_itemType,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickupItem_Statics::NewProp_itemType_Underlying,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickupItem_Statics::NewProp_Quantity,
@@ -333,7 +357,7 @@ void EmptyLinkFunctionForGeneratedCodePickupItem() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APickupItem, 1128818093);
+	IMPLEMENT_CLASS(APickupItem, 683244896);
 	template<> KILLEMDED_API UClass* StaticClass<APickupItem>()
 	{
 		return APickupItem::StaticClass();

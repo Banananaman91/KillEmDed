@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include <random>
 #include "Avatar.h"
 #include "MainContainer.h"
 #include "CoreMinimal.h"
@@ -30,10 +31,10 @@ public:
 		float HitPoints;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = MonsterProperties)
-		int32 Experience;
+		int Experience;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = MonsterProperties)
-		UClass* BPLoot;
+		TArray<UClass*> BPLoot;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = MonsterProperties)
 		float BaseAttackDamage;

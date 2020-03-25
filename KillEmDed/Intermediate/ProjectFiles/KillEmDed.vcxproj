@@ -364,8 +364,10 @@
     <NMakeOutput>..\..\Binaries\HTML5\KillEmDed-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\KillEmDed\ADestructableObject.cpp" />
     <ClCompile Include="..\..\Source\KillEmDed\EnemySpawner.cpp" />
     <ClCompile Include="..\..\Source\KillEmDed\Projectile.cpp" />
+    <ClInclude Include="..\..\Source\KillEmDed\ADestructableObject.h" />
     <ClInclude Include="..\..\Source\KillEmDed\EnemySpawner.h" />
     <ClInclude Include="..\..\Source\KillEmDed\Projectile.h" />
     <None Include="..\..\KillEmDed.uproject" />

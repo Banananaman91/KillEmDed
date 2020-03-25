@@ -137,6 +137,11 @@ void EmptyLinkFunctionForGeneratedCodeProjectile() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ProxSphere;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DestroyOnHit_MetaData[];
+#endif
+		static void NewProp_DestroyOnHit_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_DestroyOnHit;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Damage_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Damage;
@@ -179,6 +184,17 @@ void EmptyLinkFunctionForGeneratedCodeProjectile() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProjectile_Statics::NewProp_ProxSphere = { "ProxSphere", nullptr, (EPropertyFlags)0x00100000000b001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProjectile, ProxSphere), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AProjectile_Statics::NewProp_ProxSphere_MetaData, ARRAY_COUNT(Z_Construct_UClass_AProjectile_Statics::NewProp_ProxSphere_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProjectile_Statics::NewProp_DestroyOnHit_MetaData[] = {
+		{ "Category", "Properties" },
+		{ "ModuleRelativePath", "Projectile.h" },
+	};
+#endif
+	void Z_Construct_UClass_AProjectile_Statics::NewProp_DestroyOnHit_SetBit(void* Obj)
+	{
+		((AProjectile*)Obj)->DestroyOnHit = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AProjectile_Statics::NewProp_DestroyOnHit = { "DestroyOnHit", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AProjectile), &Z_Construct_UClass_AProjectile_Statics::NewProp_DestroyOnHit_SetBit, METADATA_PARAMS(Z_Construct_UClass_AProjectile_Statics::NewProp_DestroyOnHit_MetaData, ARRAY_COUNT(Z_Construct_UClass_AProjectile_Statics::NewProp_DestroyOnHit_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProjectile_Statics::NewProp_Damage_MetaData[] = {
 		{ "Category", "Properties" },
 		{ "ModuleRelativePath", "Projectile.h" },
@@ -195,6 +211,7 @@ void EmptyLinkFunctionForGeneratedCodeProjectile() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AProjectile_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectile_Statics::NewProp_Particle,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectile_Statics::NewProp_ProxSphere,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectile_Statics::NewProp_DestroyOnHit,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectile_Statics::NewProp_Damage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectile_Statics::NewProp_LifeTime,
 	};
@@ -225,7 +242,7 @@ void EmptyLinkFunctionForGeneratedCodeProjectile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AProjectile, 1794103374);
+	IMPLEMENT_CLASS(AProjectile, 511022541);
 	template<> KILLEMDED_API UClass* StaticClass<AProjectile>()
 	{
 		return AProjectile::StaticClass();

@@ -38,6 +38,12 @@ public:
 		ItemType itemType;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Item)
+		float FireRate;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Item)
+		int UpgradeCost;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Item)
 		UClass* BPItem;
 
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Item)

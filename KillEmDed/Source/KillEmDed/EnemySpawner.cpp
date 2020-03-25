@@ -36,10 +36,25 @@ void AEnemySpawner::Tick(float DeltaTime)
 
 void AEnemySpawner::Spawn()
 {
-	int enemy = rand() % BPEnemy.Num();
+	AAvatar* avatar = Cast<AAvatar>(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
+	if (avatar->GameOver) return;
+
+	int enemy = rand() % enemyCount;
 
 	FVector spawnPoint = GetActorLocation();
 
 	AAEnemy* enemySpawned = GetWorld()->SpawnActor<AAEnemy>(BPEnemy[enemy], spawnPoint, FRotator::ZeroRotator);
+
+	enemySpawnCount++;
+
+	if (enemySpawnCount >= spawnPerLevel) {
+		if (enemyCount < BPEnemy.Num()) {
+			GEngine->AddOnScreenDebugMessage(0, 5.0f, FColor::Yellow, "Spawner: Increase enemies");
+			enemyCount++;
+		}
+		GEngine->AddOnScreenDebugMessage(0, 5.0f, FColor::Yellow, "Spawner: Reset spawn count");
+		enemySpawnCount = 0;
+		SpawnTimeout *= 0.5f;
+	}
 }
 

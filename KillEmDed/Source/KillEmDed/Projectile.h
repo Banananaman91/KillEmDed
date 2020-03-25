@@ -30,6 +30,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Properties)
 		float Damage;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Properties)
+		bool DestroyOnHit;
+
 	AActor* Firer;
 
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Collision)

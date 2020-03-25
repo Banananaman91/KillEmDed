@@ -69,11 +69,12 @@ void EmptyLinkFunctionForGeneratedCodeAEnemy() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BPLoot_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_BPLoot;
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_BPLoot;
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_BPLoot_Inner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Experience_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FIntPropertyParams NewProp_Experience;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Experience;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HitPoints_MetaData[];
 #endif
@@ -162,14 +163,15 @@ void EmptyLinkFunctionForGeneratedCodeAEnemy() {}
 		{ "ModuleRelativePath", "AEnemy.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AAEnemy_Statics::NewProp_BPLoot = { "BPLoot", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAEnemy, BPLoot), Z_Construct_UClass_UObject_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AAEnemy_Statics::NewProp_BPLoot_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAEnemy_Statics::NewProp_BPLoot_MetaData)) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AAEnemy_Statics::NewProp_BPLoot = { "BPLoot", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAEnemy, BPLoot), METADATA_PARAMS(Z_Construct_UClass_AAEnemy_Statics::NewProp_BPLoot_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAEnemy_Statics::NewProp_BPLoot_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AAEnemy_Statics::NewProp_BPLoot_Inner = { "BPLoot", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_UObject_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAEnemy_Statics::NewProp_Experience_MetaData[] = {
 		{ "Category", "MonsterProperties" },
 		{ "ModuleRelativePath", "AEnemy.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AAEnemy_Statics::NewProp_Experience = { "Experience", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAEnemy, Experience), METADATA_PARAMS(Z_Construct_UClass_AAEnemy_Statics::NewProp_Experience_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAEnemy_Statics::NewProp_Experience_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AAEnemy_Statics::NewProp_Experience = { "Experience", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAEnemy, Experience), METADATA_PARAMS(Z_Construct_UClass_AAEnemy_Statics::NewProp_Experience_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAEnemy_Statics::NewProp_Experience_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAEnemy_Statics::NewProp_HitPoints_MetaData[] = {
 		{ "Category", "MonsterProperties" },
@@ -194,6 +196,7 @@ void EmptyLinkFunctionForGeneratedCodeAEnemy() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAEnemy_Statics::NewProp_AttackTimeout,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAEnemy_Statics::NewProp_BaseAttackDamage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAEnemy_Statics::NewProp_BPLoot,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAEnemy_Statics::NewProp_BPLoot_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAEnemy_Statics::NewProp_Experience,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAEnemy_Statics::NewProp_HitPoints,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAEnemy_Statics::NewProp_speed,
@@ -225,7 +228,7 @@ void EmptyLinkFunctionForGeneratedCodeAEnemy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAEnemy, 3483430736);
+	IMPLEMENT_CLASS(AAEnemy, 473391844);
 	template<> KILLEMDED_API UClass* StaticClass<AAEnemy>()
 	{
 		return AAEnemy::StaticClass();

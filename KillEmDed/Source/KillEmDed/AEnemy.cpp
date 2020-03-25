@@ -13,7 +13,6 @@ AAEnemy::AAEnemy(const FObjectInitializer& PCIP) : Super(PCIP)
 	speed = 20;
 	HitPoints = 20;
 	Experience = 1;
-	BPLoot = NULL;
 	AttackTimeout = 1.5f;
 	TimeSinceLastStrike = 0;
 
@@ -49,7 +48,7 @@ void AAEnemy::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 void AAEnemy::TrackPlayer(float DeltaTime)
 {
 	AAvatar* avatar = Cast<AAvatar>(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
-	if (!avatar) return;
+	if (!avatar || avatar->GameOver) return;
 
 	FVector playerPos = avatar->GetActorLocation();
 	FVector toPlayer = playerPos - GetActorLocation();
@@ -103,7 +102,16 @@ float AAEnemy::TakeDamage(float Damage, struct FDamageEvent const& DamageEvent, 
 	Super::TakeDamage(Damage, DamageEvent, EventInstigator, DamageCauser);
 	HitPoints -= Damage;
 
-	if (HitPoints <= 0) Destroy();
+	if (HitPoints <= 0) {
+		AAvatar* avatar = Cast<AAvatar>(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
+		avatar->AddExperience(Experience);
+
+		int item = rand() % BPLoot.Num();
+		FVector spawnPoint = GetActorLocation();
+		APickupItem* enemySpawned = GetWorld()->SpawnActor<APickupItem>(BPLoot[item], spawnPoint, FRotator::ZeroRotator);
+
+		Destroy();
+	}
 	return Damage;
 }
 

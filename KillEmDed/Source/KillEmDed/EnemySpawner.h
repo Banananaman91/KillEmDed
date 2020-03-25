@@ -33,5 +33,12 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = SpawnerProperties)
 		float TimeSinceLastSpawn;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = SpawnerProperties)
+		int spawnPerLevel;
+
+	int enemyCount = 1;
+
+	int enemySpawnCount;
+
 	void Spawn();
 };

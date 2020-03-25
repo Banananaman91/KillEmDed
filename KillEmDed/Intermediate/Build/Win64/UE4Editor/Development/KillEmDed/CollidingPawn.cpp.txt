@@ -18,6 +18,8 @@ D:\Program Files\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Pa
 D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Inc\KillEmDed\CollidingPawnMovementComponent.generated.h
 D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Intermediate\Build\Win64\UE4Editor\Inc\KillEmDed\CollidingPawn.generated.h
 D:\VeronicaMcHumpinSlut\Documents\KillEmDed\KillEmDed\Source\KillEmDed\MainContainer.h
+D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/StaticMeshActor.h
+D:\Program Files\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticMeshActor.generated.h
 D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
 D:\Program Files\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 D:\Program Files\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h

@@ -28,9 +28,8 @@ void AplayerHud::DrawMessages()
 		 float messageH = oh + 2 * pad;
 		 float x = 0, y = i * messageH;
 
-		 DrawRect(FLinearColor::Black, x, y, Canvas->SizeX, messageH);
 		 DrawTexture(messages[i].tex, x, y, messageH, messageH, 0, 0, 1, 1);
-		 DrawText(messages[i].message, messages[i].fontColour, x + pad, y + pad, hudFont);
+		 DrawText(messages[i].message, messages[i].fontColour, x + pad + 50, y + pad, hudFont);
 
 		 messages[i].time -= GetWorld()->GetDeltaSeconds();
 
@@ -40,11 +39,18 @@ void AplayerHud::DrawMessages()
 
 void AplayerHud::DrawHealthBar() {
 	AAvatar* avatar = Cast<AAvatar>(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
-
+	if (avatar->GameOver) GameOver();
 	float percHp = avatar->Hp / avatar->MaxHp;
 	DrawRect(FLinearColor::Blue, Canvas->SizeX - BarWidth - BarPad - BarMargin, Canvas->SizeY - BarHeight - BarPad - BarMargin, BarWidth + 2 * BarPad, BarHeight + 2 * BarPad);
 	DrawRect(FLinearColor(1 - percHp, percHp, 0, 1), Canvas->SizeX - BarWidth - BarMargin, Canvas->SizeY - BarHeight - BarMargin, BarWidth * percHp, BarHeight);
-	
+
+	DrawText("XP: " + FString::FromInt(avatar->TotalXP), FColor::Yellow, Canvas->SizeX / 2, Canvas->SizeY - 50, hudFont, TextScale);
+
+	if (avatar->weapons.Num() != 0) {
+		FString avatarAmmo = FString::FromInt(avatar->weapons[avatar->weaponSelect].ammo);
+		DrawTexture(avatar->weapons[avatar->weaponSelect].icon, 0, Canvas->SizeY - 50, 50, 50, 0, 0, 1, 1);
+		DrawText(avatarAmmo, FColor::Yellow, 50, Canvas->SizeY - 50, hudFont, TextScale);
+	}
 }
 
 void AplayerHud::DrawWidgets() {
@@ -83,29 +89,21 @@ void AplayerHud::MouseClicked()
 	APlayerController* PController = GetWorld()->GetFirstPlayerController();
 	PController->GetMousePosition(mouse.X, mouse.Y);
 
+	AAvatar* avatar = Cast<AAvatar>(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
+
 	for (int c = 0; c < widgets.Num(); c++) {
 		if (widgets[c].hit(mouse)) {
+			if (avatar->TotalXP >= widgets[c].item->upgradeCost) {
+				avatar->TotalXP -= widgets[c].item->upgradeCost;
+				avatar->Upgrade(widgets[c].item);
+			}
 			heldWidget = &widgets[c];
 			return;
 		}
 	}
 }
 
-void AplayerHud::MouseMoved()
+void AplayerHud::GameOver()
 {
-	APlayerController* PController = GetWorld()->GetFirstPlayerController();
-
-	float time = PController->GetInputKeyTimeDown(EKeys::LeftMouseButton);
-
-	static FVector2D lastMouse;
-	FVector2D thisMouse, dMouse;
-	PController->GetMousePosition(thisMouse.Y, thisMouse.X);
-	dMouse = thisMouse - lastMouse;
-
-	if (time > 0.0f && heldWidget) {
-		heldWidget->pos.Y += dMouse.X;
-		heldWidget->pos.X += dMouse.Y;
-	}
-
-	lastMouse = thisMouse;
+	DrawText("YOU DIED ", FColor::Red, Canvas->SizeX / 10, Canvas->SizeY / 4, hudFont, TextScale * 4);
 }

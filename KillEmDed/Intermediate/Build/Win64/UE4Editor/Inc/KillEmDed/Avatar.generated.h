@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define KILLEMDED_Avatar_generated_h
 
-#define KillEmDed_Source_KillEmDed_Avatar_h_14_RPC_WRAPPERS
-#define KillEmDed_Source_KillEmDed_Avatar_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define KillEmDed_Source_KillEmDed_Avatar_h_14_INCLASS_NO_PURE_DECLS \
+#define KillEmDed_Source_KillEmDed_Avatar_h_35_RPC_WRAPPERS
+#define KillEmDed_Source_KillEmDed_Avatar_h_35_RPC_WRAPPERS_NO_PURE_DECLS
+#define KillEmDed_Source_KillEmDed_Avatar_h_35_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAvatar(); \
 	friend struct Z_Construct_UClass_AAvatar_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(AAvatar)
 
 
-#define KillEmDed_Source_KillEmDed_Avatar_h_14_INCLASS \
+#define KillEmDed_Source_KillEmDed_Avatar_h_35_INCLASS \
 private: \
 	static void StaticRegisterNativesAAvatar(); \
 	friend struct Z_Construct_UClass_AAvatar_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(AAvatar)
 
 
-#define KillEmDed_Source_KillEmDed_Avatar_h_14_STANDARD_CONSTRUCTORS \
+#define KillEmDed_Source_KillEmDed_Avatar_h_35_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAvatar(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAvatar) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define KillEmDed_Source_KillEmDed_Avatar_h_14_ENHANCED_CONSTRUCTORS \
+#define KillEmDed_Source_KillEmDed_Avatar_h_35_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AAvatar(AAvatar&&); \
@@ -57,26 +57,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAvatar); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AAvatar)
 
 
-#define KillEmDed_Source_KillEmDed_Avatar_h_14_PRIVATE_PROPERTY_OFFSET
-#define KillEmDed_Source_KillEmDed_Avatar_h_11_PROLOG
-#define KillEmDed_Source_KillEmDed_Avatar_h_14_GENERATED_BODY_LEGACY \
+#define KillEmDed_Source_KillEmDed_Avatar_h_35_PRIVATE_PROPERTY_OFFSET
+#define KillEmDed_Source_KillEmDed_Avatar_h_32_PROLOG
+#define KillEmDed_Source_KillEmDed_Avatar_h_35_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	KillEmDed_Source_KillEmDed_Avatar_h_14_PRIVATE_PROPERTY_OFFSET \
-	KillEmDed_Source_KillEmDed_Avatar_h_14_RPC_WRAPPERS \
-	KillEmDed_Source_KillEmDed_Avatar_h_14_INCLASS \
-	KillEmDed_Source_KillEmDed_Avatar_h_14_STANDARD_CONSTRUCTORS \
+	KillEmDed_Source_KillEmDed_Avatar_h_35_PRIVATE_PROPERTY_OFFSET \
+	KillEmDed_Source_KillEmDed_Avatar_h_35_RPC_WRAPPERS \
+	KillEmDed_Source_KillEmDed_Avatar_h_35_INCLASS \
+	KillEmDed_Source_KillEmDed_Avatar_h_35_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define KillEmDed_Source_KillEmDed_Avatar_h_14_GENERATED_BODY \
+#define KillEmDed_Source_KillEmDed_Avatar_h_35_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	KillEmDed_Source_KillEmDed_Avatar_h_14_PRIVATE_PROPERTY_OFFSET \
-	KillEmDed_Source_KillEmDed_Avatar_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	KillEmDed_Source_KillEmDed_Avatar_h_14_INCLASS_NO_PURE_DECLS \
-	KillEmDed_Source_KillEmDed_Avatar_h_14_ENHANCED_CONSTRUCTORS \
+	KillEmDed_Source_KillEmDed_Avatar_h_35_PRIVATE_PROPERTY_OFFSET \
+	KillEmDed_Source_KillEmDed_Avatar_h_35_RPC_WRAPPERS_NO_PURE_DECLS \
+	KillEmDed_Source_KillEmDed_Avatar_h_35_INCLASS_NO_PURE_DECLS \
+	KillEmDed_Source_KillEmDed_Avatar_h_35_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

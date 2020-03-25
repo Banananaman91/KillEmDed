@@ -39,13 +39,16 @@ struct Icon {
 };
 
 struct Widget {
+	Weapon* item;
 	Icon icon;
 	FString Name;
 	FVector2D pos, size;
+	int UpgradeCost;
 
-	Widget(Icon iicon, FString iName) {
+	Widget(Icon iicon, FString iName, Weapon* iItem) {
 		icon = iicon;
 		Name = iName;
+		item = iItem;
 	}
 
 	float left() { return pos.X; }
@@ -108,7 +111,7 @@ public:
 
 	void MouseClicked();
 
-	void MouseMoved();
+	void GameOver();
 
 	Widget* heldWidget;
 };
