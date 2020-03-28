@@ -134,6 +134,18 @@ void EmptyLinkFunctionForGeneratedCodeADestructableObject() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Mesh;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DecoParticle_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_DecoParticle;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Particle3_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Particle3;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Particle2_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Particle2;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Particle_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Particle;
@@ -184,6 +196,30 @@ void EmptyLinkFunctionForGeneratedCodeADestructableObject() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AADestructableObject_Statics::NewProp_Mesh = { "Mesh", nullptr, (EPropertyFlags)0x00100000000b001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AADestructableObject, Mesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AADestructableObject_Statics::NewProp_Mesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_AADestructableObject_Statics::NewProp_Mesh_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AADestructableObject_Statics::NewProp_DecoParticle_MetaData[] = {
+		{ "Category", "Collision" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ADestructableObject.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AADestructableObject_Statics::NewProp_DecoParticle = { "DecoParticle", nullptr, (EPropertyFlags)0x00100000000b001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AADestructableObject, DecoParticle), Z_Construct_UClass_UParticleSystemComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AADestructableObject_Statics::NewProp_DecoParticle_MetaData, ARRAY_COUNT(Z_Construct_UClass_AADestructableObject_Statics::NewProp_DecoParticle_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AADestructableObject_Statics::NewProp_Particle3_MetaData[] = {
+		{ "Category", "Collision" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ADestructableObject.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AADestructableObject_Statics::NewProp_Particle3 = { "Particle3", nullptr, (EPropertyFlags)0x00100000000b001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AADestructableObject, Particle3), Z_Construct_UClass_UParticleSystemComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AADestructableObject_Statics::NewProp_Particle3_MetaData, ARRAY_COUNT(Z_Construct_UClass_AADestructableObject_Statics::NewProp_Particle3_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AADestructableObject_Statics::NewProp_Particle2_MetaData[] = {
+		{ "Category", "Collision" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ADestructableObject.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AADestructableObject_Statics::NewProp_Particle2 = { "Particle2", nullptr, (EPropertyFlags)0x00100000000b001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AADestructableObject, Particle2), Z_Construct_UClass_UParticleSystemComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AADestructableObject_Statics::NewProp_Particle2_MetaData, ARRAY_COUNT(Z_Construct_UClass_AADestructableObject_Statics::NewProp_Particle2_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AADestructableObject_Statics::NewProp_Particle_MetaData[] = {
 		{ "Category", "Collision" },
 		{ "EditInline", "true" },
@@ -229,6 +265,9 @@ void EmptyLinkFunctionForGeneratedCodeADestructableObject() {}
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AADestructableObject_Statics::NewProp_CoolDownTime = { "CoolDownTime", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AADestructableObject, CoolDownTime), METADATA_PARAMS(Z_Construct_UClass_AADestructableObject_Statics::NewProp_CoolDownTime_MetaData, ARRAY_COUNT(Z_Construct_UClass_AADestructableObject_Statics::NewProp_CoolDownTime_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AADestructableObject_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AADestructableObject_Statics::NewProp_Mesh,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AADestructableObject_Statics::NewProp_DecoParticle,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AADestructableObject_Statics::NewProp_Particle3,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AADestructableObject_Statics::NewProp_Particle2,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AADestructableObject_Statics::NewProp_Particle,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AADestructableObject_Statics::NewProp_SphereRadius,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AADestructableObject_Statics::NewProp_ProxSphere,
@@ -263,7 +302,7 @@ void EmptyLinkFunctionForGeneratedCodeADestructableObject() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AADestructableObject, 2021951155);
+	IMPLEMENT_CLASS(AADestructableObject, 2760887433);
 	template<> KILLEMDED_API UClass* StaticClass<AADestructableObject>()
 	{
 		return AADestructableObject::StaticClass();

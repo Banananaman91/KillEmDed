@@ -2,6 +2,7 @@
 
 
 #include "Avatar.h"
+#include "Camera/PlayerCameraManager.h"
 #include "Projectile.h"
 #include "playerHud.h"
 #include "Components/InputComponent.h"
@@ -104,10 +105,7 @@ void AAvatar::Pickup(APickupItem* item) {
 				break;
 			}
 		}
-		if (!addedWeapon) {
-			GEngine->AddOnScreenDebugMessage(0, 5.0f, FColor::Yellow, "Weapon: Upgrade cost " + FString::FromInt(item->UpgradeCost));
-			weapons.Add(Weapon(item->BPItem, item->Quantity, AmmoCapacity, item->Name, item->Icon, item->UpgradeCost, item->FireRate));
-		}
+		if (!addedWeapon) weapons.Add(Weapon(item->BPItem, item->Quantity, AmmoCapacity, item->Name, item->Icon, item->UpgradeCost, item->FireRate));
 			break;
 	case ItemType::health:
 		Hp += item->Quantity;
@@ -137,7 +135,7 @@ void AAvatar::ToggleInventory() {
 			UTexture2D* tex = weapons[c].icon;
 			Weapon* item = &weapons[c];
 
-			Widget w(Icon(fs, tex), fs, item);
+			Widget w(Icon(fs, tex), fs, item, item->upgradeCost);
 			hud->addWidget(w);
 		}
 	}
@@ -173,17 +171,21 @@ void AAvatar::Shoot()
 	if (Shooting) {
 		if (weapons.Num() != 0) {
 			if (weapons[weaponSelect].ammo > 0) {
+				APlayerCameraManager* camManager = GetWorld()->GetFirstPlayerController()->PlayerCameraManager;
+
+				FVector camLocation = camManager->GetCameraLocation();
+				FVector camForward = camManager->GetCameraRotation().Vector();
 				FVector fwd = GetActorForwardVector();
 				FVector nozzle = GetMesh()->GetBoneLocation("index_03_l");
 
-				nozzle += fwd * BulletSpawnDistance;
+				nozzle += camForward * BulletSpawnDistance;
 
 				AProjectile* bullet = GetWorld()->SpawnActor<AProjectile>(weapons[weaponSelect].weapon, nozzle, RootComponent->GetComponentRotation());
 
 				if (bullet) {
 					bullet->Damage += weapons[weaponSelect].damageUpgrade;
 					bullet->Firer = this;
-					bullet->ProxSphere->AddImpulse(fwd * BulletLaunchImpulse);
+					bullet->ProxSphere->AddImpulse(camForward * BulletLaunchImpulse);
 					weapons[weaponSelect].ammo--;
 				}
 			}

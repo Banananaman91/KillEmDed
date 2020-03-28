@@ -21,6 +21,15 @@ AADestructableObject::AADestructableObject(const class FObjectInitializer& PCIP)
 	Particle = PCIP.CreateDefaultSubobject<UParticleSystemComponent>(this, TEXT("Particle"));
 	Particle->SetupAttachment(ProxSphere);
 
+	Particle2 = PCIP.CreateDefaultSubobject<UParticleSystemComponent>(this, TEXT("Particle2"));
+	Particle2->SetupAttachment(ProxSphere);
+
+	Particle3 = PCIP.CreateDefaultSubobject<UParticleSystemComponent>(this, TEXT("Particle3"));
+	Particle3->SetupAttachment(ProxSphere);
+
+	DecoParticle = PCIP.CreateDefaultSubobject<UParticleSystemComponent>(this, TEXT("DecoParticle"));
+	DecoParticle->SetupAttachment(ProxSphere);
+
 	Damage = 1;
 }
 
@@ -30,6 +39,10 @@ void AADestructableObject::BeginPlay()
 	Super::BeginPlay();
 
 	Particle->DeactivateSystem();
+	Particle2->DeactivateSystem();
+	Particle3->DeactivateSystem();
+
+	hp = HitPoints;
 	
 }
 
@@ -43,8 +56,11 @@ void AADestructableObject::Tick(float DeltaTime)
 		if (timer > explosionDelay) ProxSphere->SetSphereRadius(0);
 		if (timer > CoolDownTime) {
 			Mesh->SetVisibility(true, true);
+			DecoParticle->ActivateSystem();
 			ProxSphere->SetSphereRadius(70);
 			Active = false;
+			hp = HitPoints;
+			timer = 0;
 		}
 	}
 
@@ -58,12 +74,15 @@ void AADestructableObject::Prox_Implementation(UPrimitiveComponent* HitComp, AAc
 float AADestructableObject::TakeDamage(float Damage, struct FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
 {
 	Super::TakeDamage(Damage, DamageEvent, EventInstigator, DamageCauser);
-	HitPoints -= Damage;
+	hp -= Damage;
 
-	if (HitPoints <= 0) {
+	if (hp <= 0) {
 		if (!Active) {
 			Mesh->SetVisibility(false, true);
+			DecoParticle->DeactivateSystem();
 			Particle->ActivateSystem();
+			Particle2->ActivateSystem();
+			Particle3->ActivateSystem();
 			ProxSphere->SetSphereRadius(SphereRadius);
 			Active = true;
 		}

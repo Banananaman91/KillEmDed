@@ -45,10 +45,11 @@ struct Widget {
 	FVector2D pos, size;
 	int UpgradeCost;
 
-	Widget(Icon iicon, FString iName, Weapon* iItem) {
+	Widget(Icon iicon, FString iName, Weapon* iItem, int iUpgradeCost) {
 		icon = iicon;
 		Name = iName;
 		item = iItem;
+		UpgradeCost = iUpgradeCost;
 	}
 
 	float left() { return pos.X; }

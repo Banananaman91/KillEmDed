@@ -48,16 +48,19 @@ void AplayerHud::DrawHealthBar() {
 
 	if (avatar->weapons.Num() != 0) {
 		FString avatarAmmo = FString::FromInt(avatar->weapons[avatar->weaponSelect].ammo);
+		FString avatarWeapon = avatar->weapons[avatar->weaponSelect].name;
 		DrawTexture(avatar->weapons[avatar->weaponSelect].icon, 0, Canvas->SizeY - 50, 50, 50, 0, 0, 1, 1);
+		DrawText(avatarWeapon, FColor::Yellow, 0, Canvas->SizeY - 65, hudFont, TextScale / TextScale);
 		DrawText(avatarAmmo, FColor::Yellow, 50, Canvas->SizeY - 50, hudFont, TextScale);
 	}
 }
 
 void AplayerHud::DrawWidgets() {
 	for (int c = 0; c < widgets.Num(); c++) {
-		DrawTexture(widgets[c].icon.tex, widgets[c].pos.Y, widgets[c].pos.X, widgets[c].size.X, widgets[c].size.Y, 0, 0, 1, 1);
+		DrawTexture(widgets[c].icon.tex, widgets[c].pos.X, widgets[c].pos.Y, widgets[c].size.X, widgets[c].size.Y, 0, 0, 1, 1);
 
-		DrawText(widgets[c].icon.name, FLinearColor::Yellow, widgets[c].pos.Y, widgets[c].pos.X, hudFont, 0.6f, false);
+		DrawText(widgets[c].icon.name, FLinearColor::Yellow, widgets[c].pos.X, widgets[c].pos.Y, hudFont, TextScale / TextScale, false);
+		DrawText(FString::FromInt(widgets[c].UpgradeCost), FLinearColor::Yellow, widgets[c].pos.X, widgets[c].pos.Y + widgets[c].size.Y, hudFont, TextScale / TextScale, false);
 	}
 }
 
@@ -65,7 +68,6 @@ void AplayerHud::addWidget(Widget widget) {
 	FVector2D start(200, 200), pad(12, 12);
 	widget.size = FVector2D(100, 100);
 	widget.pos = start;
-
 	for (int c = 0; c < widgets.Num(); c++) {
 		widget.pos.X += widget.size.X + pad.X;
 

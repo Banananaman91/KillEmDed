@@ -54,7 +54,7 @@ void AEnemySpawner::Spawn()
 		}
 		GEngine->AddOnScreenDebugMessage(0, 5.0f, FColor::Yellow, "Spawner: Reset spawn count");
 		enemySpawnCount = 0;
-		SpawnTimeout *= 0.5f;
+		if (SpawnTimeout > 1.0f) SpawnTimeout *= 0.5f;
 	}
 }
 

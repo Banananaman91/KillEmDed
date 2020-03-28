@@ -42,6 +42,15 @@ public:
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Collision)
 		UParticleSystemComponent* Particle;
 
+	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Collision)
+		UParticleSystemComponent* Particle2;
+
+	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Collision)
+		UParticleSystemComponent* Particle3;
+
+	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Collision)
+		UParticleSystemComponent* DecoParticle;
+
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Mesh)
 		UStaticMeshComponent* Mesh;
 
@@ -53,6 +62,8 @@ public:
 	bool Active;
 
 	float timer;
+
+	float hp;
 
 	float explosionDelay = 1;
 
